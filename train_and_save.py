@@ -114,7 +114,6 @@ def main():
         test(args, model, device, test_loader)
 
     if (args.save_model):
-        #torch.save(model.state_dict(),"mnist_cnn.pt")
         pass
     torch.save(model, "mnist_cnn.pt") #############################################################
     #model = torch.load("mnist_cnn.pt")
