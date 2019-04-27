@@ -12,9 +12,7 @@ from numpy.linalg import matrix_rank
 
 def reconstruct(W,sh,r,itera,bits=1):
     W = W.numpy()
-    #print(np.shape(W))
     T = np.reshape(W,sh)
-    #print(type(T))
     G,Case = TerTTSVD(T,0.01,r,2*np.ones([np.shape(r)[0]-1,1]),bits,itera,Case=True)
     print('itera is:',itera)
     if Case == False:
@@ -22,7 +20,7 @@ def reconstruct(W,sh,r,itera,bits=1):
         return
     #for i in range(3):
     #    print(np.shape(G[i]))
-    W  = ProTTSVD(G[:-1])
+    W  = ProTTSVD(G[:])
     #print(np.shape(W))
     error = LA.norm(W-T)
     return W,error,G
@@ -68,23 +66,16 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
         error = LA.norm(R,'fro')
         print('error is ',error)
         #e = e.append(error)
-        Gk = np.reshape(M[:,:r[k+1]],[r[k],dim[k],r[k+1]])  
-        
-        G[k] = (Gk)
-        #print(np.shape(G[k]))
+        G[k] = np.reshape(M[:,:r[k+1]],[r[k],dim[k],r[k+1]])  
         C = np.dot(LA.pinv(M),C)
         #print(LA.pinv(M))
         #print(C)
         C = C[:r[k+1],:]
-        
         tr[k+1] = r[k+1]
     temp = C[:r[np.shape(n)[0]-1],:n[-1]].T
-    #print(np.shape(temp))
-    p_arr = np.concatenate((np.shape(temp),[1])) # 先将p_变成list形式进行拼接，注意输入为一个tuple
-    #p_arr = np.append(p_arr,1)
+    p_arr = np.concatenate((np.shape(temp),[1])) 
     G[-1] = np.reshape(temp,p_arr)
-    #print(np.shape(G[-1]))
-    print('itera is:',itera)
+    #print('itera is:',itera)
     return G, Case
 
 def TerDecomMultibits(W,r,itera,bits):
@@ -103,18 +94,21 @@ def TerDecomMultibits(W,r,itera,bits):
         
         while (iter<itera):
             
-            a[i,:] = (np.dot(M[:,i].T,R)/np.dot(M[:,i],M[:,i]))
+            a[i,:] = (np.dot(M[:,i].T,R)/np.dot(M[:,i].T,M[:,i]))
             #print(np.dot(M[:,i].T,R))
             index = np.zeros(2**(bits)+1)
-            
-            for ii in range(-2**(bits-1),2**(bits-1)):
+            index1 = np.zeros(2**(bits)+1)
+            for ii in range(-2**(bits-1),2**(bits-1)+1):
+                #index1[ii+2**(bits-1)] = ii
                 index[ii+2**(bits-1)] = (ii)/2**(bits-1)
                 #print('index',ii+2**(bits-1))
                 #print('ii',ii)
+            #print(index1)
+            #print(index,'index')
             tempsum = np.zeros([len(index)])
             for j in range(dim1):
                 for q in range(len(index)):
-                    tempsum[q] = np.dot((R[j,:]-index[q]*a[i,:]),(R[j,:]-index[q]*a[i,:]))
+                    tempsum[q] = np.dot((R[j,:]-index[q]*a[i,:]),(R[j,:]-index[q]*a[i,:]).T)
                     #print((R[j,:]-index[q]*a[i,:]))
                 if np.isnan(np.min(tempsum)):
                     M[j,i] = index[1]
@@ -123,7 +117,7 @@ def TerDecomMultibits(W,r,itera,bits):
             iter = iter + 1
         R = R - np.outer(M[:,i],a[i,:])
         print('iter {}/{} completed'.format(i+1,r))
-    print('itera is:',itera)
+    #print('itera is:',itera)
     return M,a,R
 
 def ProTTSVD(G):
@@ -132,39 +126,33 @@ def ProTTSVD(G):
     r = [[] for i in range(indexG+1)]
     
     for i in range(indexG):
-        #print(i)
-        #print(np.shape(G[i]))
         temp = np.shape(G[i])
         n[i] = (temp[1])
         r[i] = (temp[0])
-        #print(i)
     
     r[indexG] = np.shape(G[-1])[-1]
-    #print(r[indexG])
     temp = G[0]
     dim = np.shape(G[0])
-    #print(dim) 
     
     for i in range(1,indexG):
-        #print(i)
         dim1 = [[] for _ in range(i+1+2)]
         temp = np.reshape(temp,[int(np.prod(np.shape(temp))/r[i]), int(r[i])])
-        #print(np.shape(temp))
         temp = np.dot(temp,np.reshape(G[i],[r[i], int(np.prod(np.shape(G[i]))/r[i])]))
-        #print(np.shape(temp))
         dim1[:i+1] = dim[:i+1]
         dim1[-2] = n[i]
         dim1[-1] = r[i+1]
-        #print(dim1)
         temp = np.reshape(temp,dim1)
         dim = dim1
-        #print(dim1)
-    if (dim[-1] == 1) and (dim[0] == 1):
+    if (dim[-1] == 1) and (dim[0] == 1): 
+        ###########
+        # TT
+        ###########
         temp = np.reshape(temp,dim[1:-1])
     elif dim[-1] != 1:
+        ###########
+        # TTM/MPO
+        ###########
         temp = np.reshape(temp,dim[1:])
-        #print(dim[1:])
-    #print(np.shape(temp))
     return temp
 '''
 def main():

@@ -15,19 +15,25 @@ import numpy as np
 from torchvision import datasets, transforms
 from DataLoader import MnistDataLoaderWrapper
 import Decomposition as TT
+from train_and_save import Net
+from numpy import linalg as LA
 
 
-def update(b = 1, i = 2):
-    # Decomposition para.
+def update(b = 0, i = 1):
+# Decomposition para.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     reshape_size = [20,32,32,32]
     reshape_rank = [1,20,640,32,1]
-    bitwidth = [1,2,3,4,8]
+    bitwidth = [1,2,4,8]
     bits = bitwidth[b]
     iteration = [20,60,100,200]
     itera = iteration[i]
-    #######################################################################################
-    # Training settings
-    ###########################################################################################
+    ITrain = False
+    print('Starts!')
+    print('---------------------bits',bits,'--------------------')
+    print('---------------------itera',itera,'--------------------')
+####################################################
+# Training settings                                 
+####################################################
     parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
     parser.add_argument('--batch-size', type=int, default=64, metavar='N',
                         help='input batch size for training (default: 64)')
@@ -52,85 +58,112 @@ def update(b = 1, i = 2):
     torch.manual_seed(args.seed)
     device = torch.device("cuda" if use_cuda else "cpu")
     kwargs = {'num_workers': 1, 'pin_memory': True} if use_cuda else {}
-    ###########################################################################################
-    # Decomposition
-    ###########################################################################################    
     model = torch.load("mnist_cnn.pt")
+####################################################
+# Decomposition and Reconstruction
+####################################################
     
     [W,error,G] = TT.reconstruct(model.fc1.weight.data,reshape_size,reshape_rank,itera=itera,bits=bits)
+    print(LA.norm(error))
     torch.save(G, "G.pt")
     
-    
     G = torch.load("G.pt")
-    W = TT.ProTTSVD(G[:-1])
-    A1 = np.reshape(W,[np.prod(np.shape(W)[:-1]),np.shape(W)[-1]])#[n1n2n3, r4]
-    W = torch.Tensor(W)
-    W = np.reshape(W,np.shape(model.fc1.weight.data))
+    A1 = TT.ProTTSVD(G[:-1])
+    A1 = np.reshape(A1,[np.prod(np.shape(A1)[:-1]),np.shape(A1)[-1]])#[n1n2n3, r4]
+    W = np.reshape(torch.Tensor(TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
+    error = W-model.fc1.weight.data
+    print(A1)
+    print('A1')
+    print(LA.norm(A1))
+    print('LAA1')# 7195
+    print(LA.norm(error), 'LANORM error')# 20.4
     model.fc1.weight.data = W
-    
-    ####################################
-    # train and test
-    ###########################################################################################
-
-    optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum)
+#####################################################
+# train and test
+#####################################################
+    train_loader = torch.utils.data.DataLoader(
+            datasets.MNIST('../data', train=True, download=True,
+                           transform=transforms.Compose([
+                                   transforms.ToTensor(),
+                                   transforms.Normalize((0.1307,), (0.3081,))
+                                   ])),
+    batch_size=args.batch_size, shuffle=False, **kwargs)
+    test_loader = torch.utils.data.DataLoader(
+            datasets.MNIST('../data', train=False, download=True,
+                           transform=transforms.Compose([
+                                   transforms.ToTensor(),
+                                   transforms.Normalize((0.1307,), (0.3081,))
+                                   ])),
+    batch_size=args.test_batch_size, shuffle=False, **kwargs)
     '''
     data_loader = MnistDataLoaderWrapper()
     train_loader = data_loader.train_loader
     test_loader = data_loader.test_loader
     '''
-    train_loader = torch.utils.data.DataLoader(
-        datasets.MNIST('../data', train=True, download=True,
-                       transform=transforms.Compose([
-                           transforms.ToTensor(),
-                           transforms.Normalize((0.1307,), (0.3081,))
-                       ])),
-        batch_size=args.batch_size, shuffle=False, **kwargs)
-    test_loader = torch.utils.data.DataLoader(
-        datasets.MNIST('../data', train=False, download=True,
-                       transform=transforms.Compose([
-                           transforms.ToTensor(),
-                           transforms.Normalize((0.1307,), (0.3081,))
-                       ])),
-        batch_size=args.test_batch_size, shuffle=False, **kwargs)
+    if ITrain == True:
+        optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum)
+        print('Now updating the last core')
+        train(args, model, device, train_loader, optimizer, A1, G, reshape_size, epoch=1, Update_last_core = True)
+        test(args, model, device, test_loader)
+    elif ITrain == False:
+        print('Without train, just test reconstruction accuracy')
+        test(args, model, device, test_loader)
     
-    
-    
-    Loss_grad = train(args, model, device, train_loader, optimizer, epoch=1)
-    Q = np.reshape(Loss_grad,[np.prod(reshape_size[:-1]),reshape_size[-1]])
-    G[-1] = G[-1]+ np.dot(A1.T,Q)
-    test(args, model, device, test_loader)
-        
-    
-
-def train(args, model, device, train_loader, optimizer, epoch):
+def train(args, model, device, train_loader, optimizer, A1, G, reshape_size, epoch, Update_last_core = False):
     model.train()
-    #######################################################
-    # freeze the param.
-    #######################################################
-    for param in model.conv1.parameters():
+#####################################################
+# freeze the param.
+#####################################################
+    for param in model.parameters():
         param.requires_grad = False
-    for param in model.conv2.parameters():
-        param.requires_grad = False
-    for param in model.fc1.parameters():
-        param.requires_grad = True
-    for param in model.fc2.parameters():
-        param.requires_grad = True
     print('Loss_grad is in grabbing progression')
     for batch_idx, (data, target) in enumerate(train_loader):
+        for param in model.fc1.parameters():
+            param.requires_grad = True
         data, target = data.to(device), target.to(device)
         output = model(data)
         loss = F.nll_loss(output, target)
         optimizer.zero_grad()
-        loss.backward()
-        Loss_grad = model.fc1.weight.grad
+        if model.fc1.weight.requires_grad == True or model.fc2.weight.requires_grad == True:
+            loss.backward()
+##########################################
+# Update last core
+##########################################
+        if model.fc1.weight.requires_grad == True and Update_last_core == True:
+            print('Now update the last core')
+            Loss_grad = model.fc1.weight.grad
+            Q = np.reshape(Loss_grad,[np.prod(reshape_size[:-1]),reshape_size[-1]])#[n1n2n3,n4]
+            Size_temp = np.append((np.shape(np.dot(A1.T,Q))),1)#[r4,n4,r5=1]
+            G[-1] = G[-1]+ np.reshape(np.dot(A1.T,Q),Size_temp)
+            print(LA.norm(np.dot(A1.T,Q)),'bp added norm')
+            W = np.reshape(torch.Tensor(TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
+            error = W-model.fc1.weight.data
+            print('LAnorm error',LA.norm(error))
+            model.fc1.weight.data = W
+###########################################
+# Initialize the grad
+###########################################
+            model.fc1.weight.grad = torch.Tensor(np.zeros(np.shape(model.fc1.weight.grad)))
+            model.fc1.bias.grad = torch.Tensor(np.zeros(np.shape(model.fc1.bias.grad)))
+        elif model.fc1.weight.requires_grad == True and Update_last_core == False:
+            print('We do not update the last core here')
+        '''
         for param in model.fc1.parameters():
-            param.grad = torch.Tensor(np.zeros(np.shape(param.grad)))
+            param.requires_grad = False
+        for param in model.fc2.parameters():
+            param.requires_grad = True
+        optimizer.zero_grad()
+        loss.backward()
+        '''
+###########################################
+# Train
+###########################################
         optimizer.step()
+########### test #######################
         if batch_idx % args.log_interval == 0:
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 epoch, batch_idx * len(data), len(train_loader.dataset),
                 100. * batch_idx / len(train_loader), loss.item()))
-    return Loss_grad
 
 def test(args, model, device, test_loader):
     model.eval()
