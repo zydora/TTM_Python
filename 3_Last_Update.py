@@ -27,7 +27,7 @@ def update(b = 0, i = 1):
     bits = bitwidth[b]
     iteration = [20,60,100,200]
     itera = iteration[i]
-    ITrain = False
+    RTrain = False
     print('Starts!')
     print('---------------------bits',bits,'--------------------')
     print('---------------------itera',itera,'--------------------')
@@ -62,11 +62,11 @@ def update(b = 0, i = 1):
 ####################################################
 # Decomposition and Reconstruction
 ####################################################
-    
+    '''
     [W,error,G] = TT.reconstruct(model.fc1.weight.data,reshape_size,reshape_rank,itera=itera,bits=bits)
     print(LA.norm(error))
     torch.save(G, "G.pt")
-    
+    '''
     G = torch.load("G.pt")
     A1 = TT.ProTTSVD(G[:-1])
     A1 = np.reshape(A1,[np.prod(np.shape(A1)[:-1]),np.shape(A1)[-1]])#[n1n2n3, r4]
@@ -100,13 +100,16 @@ def update(b = 0, i = 1):
     train_loader = data_loader.train_loader
     test_loader = data_loader.test_loader
     '''
-    if ITrain == True:
+    if RTrain == True:
         optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum)
         print('Now updating the last core')
         train(args, model, device, train_loader, optimizer, A1, G, reshape_size, epoch=1, Update_last_core = True)
         test(args, model, device, test_loader)
-    elif ITrain == False:
+    elif RTrain == False:
         print('Without train, just test reconstruction accuracy')
+        print('Train set')
+        test(args, model, device, train_loader)
+        print('Test set')
         test(args, model, device, test_loader)
     
 def train(args, model, device, train_loader, optimizer, A1, G, reshape_size, epoch, Update_last_core = False):
