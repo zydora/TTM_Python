@@ -9,10 +9,11 @@ import pandas
 import torch
 from numpy import linalg as LA
 from numpy.linalg import matrix_rank
+import tensorflow as tf
 
 def reconstruct(W,sh,r,itera,bits=1):
     W = W.numpy()
-    T = np.reshape(W,sh)
+    T = rreshape(W,sh)
     G,Case = TerTTSVD(T,0.01,r,2*np.ones([np.shape(r)[0]-1,1]),bits,itera,Case=True)
     print('itera is:',itera)
     if Case == False:
@@ -30,7 +31,7 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
     dim = np.shape(A)
     n = dim
     e = 0
-    #delta = eplison*LA.norm(np.reshape(A,[dim[0],np.prod(dim)/dim[0]]),'fro')/np.sqrt(dim(n)[0]-1)
+    #delta = eplison*LA.norm(rreshape(A,[dim[0],np.prod(dim)/dim[0]]),'fro')/np.sqrt(dim(n)[0]-1)
     C = A
     tC = C
     tr = np.zeros([len(n)+1])
@@ -43,8 +44,7 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
     G = [[] for i in range(np.shape(n)[0])]
     e = [[]]
     for k in range(np.shape(n)[0]-1):
-        #print(np.shape(C))
-        C = np.reshape(C,[int(tr[k]*n[k]), int(np.prod(n)/(tr[k]*n[k]))])
+        C = rreshape(C,[int(tr[k]*n[k]), int(np.prod(n)/(tr[k]*n[k]))])
         tr[k+1] = matrix_rank(C)
         #print(tr[k+1])
         if r[k+1]> tr[k+1]:
@@ -66,7 +66,7 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
         error = LA.norm(R,'fro')
         print('error is ',error)
         #e = e.append(error)
-        G[k] = np.reshape(M[:,:r[k+1]],[r[k],dim[k],r[k+1]])  
+        G[k] = rreshape(M[:,:r[k+1]],[r[k],dim[k],r[k+1]])
         C = np.dot(LA.pinv(M),C)
         #print(LA.pinv(M))
         #print(C)
@@ -74,7 +74,7 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
         tr[k+1] = r[k+1]
     temp = C[:r[np.shape(n)[0]-1],:n[-1]].T
     p_arr = np.concatenate((np.shape(temp),[1])) 
-    G[-1] = np.reshape(temp,p_arr)
+    G[-1] = rreshape(temp,p_arr)
     #print('itera is:',itera)
     return G, Case
 
@@ -136,24 +136,62 @@ def ProTTSVD(G):
     
     for i in range(1,indexG):
         dim1 = [[] for _ in range(i+1+2)]
-        temp = np.reshape(temp,[int(np.prod(np.shape(temp))/r[i]), int(r[i])])
-        temp = np.dot(temp,np.reshape(G[i],[r[i], int(np.prod(np.shape(G[i]))/r[i])]))
+        temp = rreshape(temp,[int(np.prod(np.shape(temp))/r[i]), int(r[i])])
+        temp = np.dot(temp,rreshape(G[i],[r[i], int(np.prod(np.shape(G[i]))/r[i])]))
         dim1[:i+1] = dim[:i+1]
         dim1[-2] = n[i]
         dim1[-1] = r[i+1]
-        temp = np.reshape(temp,dim1)
+        temp = rreshape(temp,dim1)
         dim = dim1
     if (dim[-1] == 1) and (dim[0] == 1): 
         ###########
         # TT
         ###########
-        temp = np.reshape(temp,dim[1:-1])
+        temp = rreshape(temp,dim[1:-1])
     elif dim[-1] != 1:
         ###########
         # TTM/MPO
         ###########
-        temp = np.reshape(temp,dim[1:])
+        temp = rreshape(temp,dim[1:])
     return temp
+
+def rreshape(W,sh):
+    '''
+    print(sh)
+    print('aaaaaaaaaaaaaaaaa')
+    print(np.shape(W))
+    '''
+    # 1
+    W = trans01(W)
+    # 2
+    ssh = np.array(sh)
+    a = sh[0]
+    b = sh[1]
+    ssh[1] = a
+    ssh[0] = b
+    #print(ssh)
+    W = np.reshape(W,ssh)
+    # 3
+    W = trans01(W)
+    '''
+    print('bbbbbbbbbbbbbbbbbbbbb')
+    print(np.shape(W))
+    '''
+    return W
+
+def trans01(W):
+    LL = [[] for i in range(np.shape(np.shape(W))[0])]
+    for i in range(np.shape(np.shape(W))[0]):
+        LL[i] = i
+    a = LL[0]
+    LL[0] = LL[1]
+    LL[1] = a#np.shape(np.shape(W))[0]-1
+    W = tf.transpose(W, perm=LL)
+    with tf.Session() as sess:
+        sess.run(tf.global_variables_initializer())
+        W = (sess.run(W))
+    return W
+
 '''
 def main():
     W = np.random.rand(100,60)

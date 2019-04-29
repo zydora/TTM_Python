@@ -17,10 +17,10 @@ from DataLoader import MnistDataLoaderWrapper
 import Decomposition as TT
 from train_and_save import Net
 from numpy import linalg as LA
+import tensorflow as tf
 
 
 def update(b = 0, i = 1):
-# Decomposition para.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     reshape_size = [20,32,32,32]
     reshape_rank = [1,20,640,32,1]
     bitwidth = [1,2,4,8]
@@ -69,15 +69,13 @@ def update(b = 0, i = 1):
     '''
     G = torch.load("G.pt")
     A1 = TT.ProTTSVD(G[:-1])
-    A1 = np.reshape(A1,[np.prod(np.shape(A1)[:-1]),np.shape(A1)[-1]])#[n1n2n3, r4]
-    W = np.reshape(torch.Tensor(TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
-    error = W-model.fc1.weight.data
-    print(A1)
-    print('A1')
-    print(LA.norm(A1))
-    print('LAA1')# 7195
-    print(LA.norm(error), 'LANORM error')# 20.4
-    model.fc1.weight.data = W
+    A1 = rreshape(A1,[np.prod(np.shape(A1)[:-1]),np.shape(A1)[-1]])#[n1n2n3, r4]
+    W = rreshape(torch.Tensor(TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
+    #print(W.type)
+    #print(model.fc1.weight.data.type)
+    #error = W-model.fc1.weight.data
+    
+    model.fc1.weight.data = torch.Tensor(W)
 #####################################################
 # train and test
 #####################################################
@@ -135,11 +133,11 @@ def train(args, model, device, train_loader, optimizer, A1, G, reshape_size, epo
         if model.fc1.weight.requires_grad == True and Update_last_core == True:
             print('Now update the last core')
             Loss_grad = model.fc1.weight.grad
-            Q = np.reshape(Loss_grad,[np.prod(reshape_size[:-1]),reshape_size[-1]])#[n1n2n3,n4]
+            Q = rreshape(Loss_grad,[np.prod(reshape_size[:-1]),reshape_size[-1]])#[n1n2n3,n4]
             Size_temp = np.append((np.shape(np.dot(A1.T,Q))),1)#[r4,n4,r5=1]
-            G[-1] = G[-1]+ np.reshape(np.dot(A1.T,Q),Size_temp)
+            G[-1] = G[-1]+ rreshape(np.dot(A1.T,Q),Size_temp)
             print(LA.norm(np.dot(A1.T,Q)),'bp added norm')
-            W = np.reshape(torch.Tensor(TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
+            W = rreshape(torch.Tensor(TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
             error = W-model.fc1.weight.data
             print('LAnorm error',LA.norm(error))
             model.fc1.weight.data = W
@@ -186,5 +184,42 @@ def test(args, model, device, test_loader):
         test_loss, correct, len(test_loader.dataset),
         100. * correct / len(test_loader.dataset)))
     
+def rreshape(W,sh):
+    '''
+    print(sh)
+    print('aaaaaaaaaaaaaaaaa')
+    print(np.shape(W))
+    '''
+    # 1
+    W = trans01(W)
+    # 2
+    ssh = np.array(sh)
+    a = sh[0]
+    b = sh[1]
+    ssh[1] = a
+    ssh[0] = b
+    #print(ssh)
+    W = np.reshape(W,ssh)
+    # 3
+    W = trans01(W)
+    '''
+    print('bbbbbbbbbbbbbbbbbbbbb')
+    print(np.shape(W))
+    '''
+    return W
+
+def trans01(W):
+    LL = [[] for i in range(np.shape(np.shape(W))[0])]
+    for i in range(np.shape(np.shape(W))[0]):
+        LL[i] = i
+    a = LL[0]
+    LL[0] = LL[1]
+    LL[1] = a#np.shape(np.shape(W))[0]-1
+    W = tf.transpose(W, perm=LL)
+    with tf.Session() as sess:
+        sess.run(tf.global_variables_initializer())
+        W = (sess.run(W))
+    return W
+
 if __name__ == '__main__':
     update()
