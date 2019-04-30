@@ -10,6 +10,8 @@ import torch
 from numpy import linalg as LA
 from numpy.linalg import matrix_rank
 import tensorflow as tf
+import random
+import scipy.io as sio
 
 def reconstruct(W,sh,r,itera,bits=1):
     W = W.numpy()
@@ -19,11 +21,13 @@ def reconstruct(W,sh,r,itera,bits=1):
     if Case == False:
         print('Please reinput the rank')
         return
+    torch.save(G, "G.pt")
     #for i in range(3):
     #    print(np.shape(G[i]))
     W  = ProTTSVD(G[:])
     #print(np.shape(W))
     error = LA.norm(W-T)
+    print('reconstruction accomplished!')
     return W,error,G
 
 def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
@@ -40,7 +44,7 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
         Case = False
         return Case
     tr[0] = 1
-    tr[-1] = 1 
+    tr[-1] = 1
     G = [[] for i in range(np.shape(n)[0])]
     e = [[]]
     for k in range(np.shape(n)[0]-1):
@@ -52,7 +56,7 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
             Case = False
             return Case
         if bt[k] == 2:
-            [M,a,R] = TerDecomMultibits(C,r[k+1],itera, bits)
+            [M,a,R] = TerDecomMultibits(C,r[k+1],itera, bits,k+1)
             #print(M)
             '''
         elif bt[k] == 1:
@@ -72,44 +76,32 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
         #print(C)
         C = C[:r[k+1],:]
         tr[k+1] = r[k+1]
-    temp = C[:r[np.shape(n)[0]-1],:n[-1]].T
-    p_arr = np.concatenate((np.shape(temp),[1])) 
+    temp = C[:r[np.shape(n)[0]-1],:n[-1]]
+    p_arr = np.concatenate((np.shape(temp),[1]))
     G[-1] = rreshape(temp,p_arr)
     #print('itera is:',itera)
     return G, Case
 
-def TerDecomMultibits(W,r,itera,bits):
+def TerDecomMultibits(W,r,itera,bits,InitM):
     R = W
     dim = np.shape(W)
     dim1 = dim[0]
     dim2 = dim[1]
     M = np.array(np.zeros([dim1,r]))
     a = np.array(np.zeros([r,dim2]))
-    #print(r)
     print('TerDecom starts!')
     for i in range(r):
-        M[:,i] =np.sign(np.round(np.random.randn(dim1,)))#
-        #print((M[:,i]))
+        M[:,i] =np.sign(np.round(np.random.randn(dim1,)))
         iter = 0
-        
         while (iter<itera):
-            
             a[i,:] = (np.dot(M[:,i].T,R)/np.dot(M[:,i].T,M[:,i]))
-            #print(np.dot(M[:,i].T,R))
             index = np.zeros(2**(bits)+1)
-            index1 = np.zeros(2**(bits)+1)
             for ii in range(-2**(bits-1),2**(bits-1)+1):
-                #index1[ii+2**(bits-1)] = ii
                 index[ii+2**(bits-1)] = (ii)/2**(bits-1)
-                #print('index',ii+2**(bits-1))
-                #print('ii',ii)
-            #print(index1)
-            #print(index,'index')
             tempsum = np.zeros([len(index)])
             for j in range(dim1):
                 for q in range(len(index)):
                     tempsum[q] = np.dot((R[j,:]-index[q]*a[i,:]),(R[j,:]-index[q]*a[i,:]).T)
-                    #print((R[j,:]-index[q]*a[i,:]))
                 if np.isnan(np.min(tempsum)):
                     M[j,i] = index[1]
                 else:
@@ -143,7 +135,7 @@ def ProTTSVD(G):
         dim1[-1] = r[i+1]
         temp = rreshape(temp,dim1)
         dim = dim1
-    if (dim[-1] == 1) and (dim[0] == 1): 
+    if (dim[-1] == 1) and (dim[0] == 1):
         ###########
         # TT
         ###########
@@ -153,6 +145,7 @@ def ProTTSVD(G):
         # TTM/MPO
         ###########
         temp = rreshape(temp,dim[1:])
+    print('PROTTSVD accomplished!')
     return temp
 
 def rreshape(W,sh):
@@ -193,10 +186,17 @@ def trans01(W):
     return W
 
 '''
+def load(M,k):
+    data = sio.loadmat('InitialM_'+str(k)+'_.mat')
+    tM = data['tM']
+    return tM
+    '''
+'''
 def main():
     W = np.random.rand(100,60)
     W = torch.Tensor(W)
     [W,error,G] = reconstruct(W,[5,5,12,20],[1,5,25,20,1],bits=1,itera=20)
     '''
 if __name__ == '__main__':
+    
     main()

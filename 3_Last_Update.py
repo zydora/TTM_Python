@@ -18,11 +18,17 @@ import Decomposition as TT
 from train_and_save import Net
 from numpy import linalg as LA
 import tensorflow as tf
+import scipy.io as sio
 
+import matplotlib.pyplot as plt
+from PIL import Image
+import pandas as pd
 
 def update(b = 0, i = 1):
-    reshape_size = [20,32,32,32]
+    reshape_size_1 = [[20,32,32,32],[640,1024]]
+    reshape_size = reshape_size_1[0]
     reshape_rank = [1,20,640,32,1]
+    #reshape_rank = [1,640,1]
     bitwidth = [1,2,4,8]
     bits = bitwidth[b]
     iteration = [20,60,100,200]
@@ -62,20 +68,31 @@ def update(b = 0, i = 1):
 ####################################################
 # Decomposition and Reconstruction
 ####################################################
-    '''
+    
     [W,error,G] = TT.reconstruct(model.fc1.weight.data,reshape_size,reshape_rank,itera=itera,bits=bits)
     print(LA.norm(error))
     torch.save(G, "G.pt")
-    '''
+    
+    
     G = torch.load("G.pt")
-    A1 = TT.ProTTSVD(G[:-1])
-    A1 = rreshape(A1,[np.prod(np.shape(A1)[:-1]),np.shape(A1)[-1]])#[n1n2n3, r4]
+    #A1 = TT.ProTTSVD(G[:-1])
+    #A1 = rreshape(A1,[np.prod(np.shape(A1)[:-1]),np.shape(A1)[-1]])#[n1n2n3, r4]
     W = rreshape(torch.Tensor(TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
-    #print(W.type)
-    #print(model.fc1.weight.data.type)
-    #error = W-model.fc1.weight.data
+    
+    '''
+    #check weight from matlab
+    data = sio.loadmat('2.mat')
+    W = data['W1']
+    W = rreshape(W,np.shape(model.fc1.weight.data))
+    '''
+    error = np.array(W)-np.array(model.fc1.weight.data)
+    print(LA.norm(error))
+    if LA.norm(error)!=0:
+        print('model substitude')
     
     model.fc1.weight.data = torch.Tensor(W)
+    
+    
 #####################################################
 # train and test
 #####################################################
@@ -83,14 +100,14 @@ def update(b = 0, i = 1):
             datasets.MNIST('../data', train=True, download=True,
                            transform=transforms.Compose([
                                    transforms.ToTensor(),
-                                   transforms.Normalize((0.1307,), (0.3081,))
+                                   #transforms.Normalize((0.1307,), (0.3081,))
                                    ])),
     batch_size=args.batch_size, shuffle=False, **kwargs)
     test_loader = torch.utils.data.DataLoader(
             datasets.MNIST('../data', train=False, download=True,
                            transform=transforms.Compose([
                                    transforms.ToTensor(),
-                                   transforms.Normalize((0.1307,), (0.3081,))
+                                   #transforms.Normalize((0.1307,), (0.3081,))
                                    ])),
     batch_size=args.test_batch_size, shuffle=False, **kwargs)
     '''
@@ -222,4 +239,5 @@ def trans01(W):
     return W
 
 if __name__ == '__main__':
-    update()
+    np.random.seed(5)
+    update() 
