@@ -13,7 +13,7 @@ import tensorflow as tf
 import random
 import scipy.io as sio
 
-def reconstruct(W,sh,r,itera,bits=1):
+def reconstruct(W,sh,r,itera,bits=2):
     W = W.numpy()
     T = rreshape(W,sh)
     G,Case = TerTTSVD(T,0.01,r,2*np.ones([np.shape(r)[0]-1,1]),bits,itera,Case=True)
@@ -21,7 +21,7 @@ def reconstruct(W,sh,r,itera,bits=1):
     if Case == False:
         print('Please reinput the rank')
         return
-    torch.save(G, "G.pt")
+    #torch.save(G, "G"+str(bits)+".pt")
     #for i in range(3):
     #    print(np.shape(G[i]))
     W  = ProTTSVD(G[:])
@@ -162,7 +162,6 @@ def rreshape(W,sh):
     b = sh[1]
     ssh[1] = a
     ssh[0] = b
-    #print(ssh)
     W = np.reshape(W,ssh)
     # 3
     W = trans01(W)
@@ -198,5 +197,4 @@ def main():
     [W,error,G] = reconstruct(W,[5,5,12,20],[1,5,25,20,1],bits=1,itera=20)
     '''
 if __name__ == '__main__':
-    
     main()
