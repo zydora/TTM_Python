@@ -1,0 +1,15 @@
+
+---------------------bits 4 --------------------
+---------------------itera 60 --------------------
+
+Without train, just test reconstruction accuracy
+Train set
+
+Test set: Average loss: 0.2075, Accuracy: 59378/60000 (99%)
+
+Test set
+
+Test set: Average loss: 0.2072, Accuracy: 9847/10000 (98%)
+
+[4;33mReloaded modules[24m: DataLoader, Decomposition, train_and_save[0m
+Starts!
