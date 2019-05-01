@@ -48,7 +48,7 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
     G = [[] for i in range(np.shape(n)[0])]
     e = [[]]
     for k in range(np.shape(n)[0]-1):
-        C = rreshape(C,[int(tr[k]*n[k]), int(np.prod(n)/(tr[k]*n[k]))])
+        C = rreshape(C,[int(tr[k]*n[k]), int(np.prod(np.shape(C))/(tr[k]*n[k]))])
         tr[k+1] = matrix_rank(C)
         #print(tr[k+1])
         if r[k+1]> tr[k+1]:

@@ -29,7 +29,7 @@ def update(b = 0, i = 1):
     reshape_size = reshape_size_1[0]
     reshape_rank = [1,20,640,32,1]
     #reshape_rank = [1,640,1]
-    bitwidth = [1,2,4,8]
+    bitwidth = [1,2,3,4,6,8]
     bits = bitwidth[b]
     iteration = [20,60,100,200]
     itera = iteration[i]
