@@ -33,7 +33,7 @@ def update(b = 0, i = 1):
     bits = bitwidth[b]
     iteration = [20,60,100,200]
     itera = iteration[i]
-    RTrain = False
+    RTrain = True
     print('Starts!')
     print('---------------------bits',bits,'--------------------')
     print('---------------------itera',itera,'--------------------')

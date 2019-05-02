@@ -11,12 +11,12 @@ import Decomposition as TT
 import sys
 
 def main():
-    f = open('a.log', 'a')
+    f = open('Jupyter.log', 'a')
     sys.stdout = f
     sys.stderr = f
-    for bits in range(2,9):
-        L.update(b = 0, i = bits)
-        print(i,'_finished')
+    for b in range(4,6):
+        L.update(b = b, i = 1)
+        print(b,'_finished')
 
 if __name__ == '__main__':
     main()
