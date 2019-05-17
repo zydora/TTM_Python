@@ -8,7 +8,7 @@ from __future__ import print_function
 import argparse
 import torch
 import torchvision
-#mport torch.nn as nn
+#import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
@@ -25,19 +25,23 @@ import torchvision.models as models
 from PIL import Image
 import pandas as pd
 
-def update(b = 0, i = 1):
+def update(b = 0, i = 1, m = 0, s = 0):
     reshape_size_1 = [64,112,112,128]#,[4096, 25088]]
     reshape_size_2 = [64,64,64,64]#,[4096,4096]]
     reshape_size_3 = [32,32,40,50]#,[1000,4096]]
-    reshape_rank_1 = [1,112,12544,256,1]
+    reshape_rank_1 = [1,64,7168,128,1]
     reshape_rank_2 = [1,64,4096,64,1]
     reshape_rank_3 = [1,32,1024,50,1]
     #reshape_rank = [1,640,1]
     bitwidth = [1,2,3,4]
     bits = bitwidth[b]
+    step_size = [0.000001,0.00001, 0.0001]
+    step = step_size[s]
     iteration = [20,60,100,200]
     itera = iteration[i]
     RTrain = False
+    Modell = ["LeNet-5","VGG16","VGGFace"]
+    modell = Modell[m]
     print('Starts!')
     print('---------------------bits',bits,'--------------------')
     print('---------------------itera',itera,'--------------------')
@@ -98,9 +102,9 @@ def update(b = 0, i = 1):
     print(LA.norm(error1))
     print(LA.norm(error2))
     print(LA.norm(error3))
-    torch.save(G1, "G1_"+model+str(bits)+".pt")
-    torch.save(G2, "G2_"+model+str(bits)+".pt")
-    torch.save(G3, "G3_"+model+str(bits)+".pt")
+    torch.save(G1, "G1_"+modell+str(bits)+".pt")
+    torch.save(G2, "G2_"+modell+str(bits)+".pt")
+    torch.save(G3, "G3_"+modell+str(bits)+".pt")
     '''
     G1 = torch.load("G1_"+model+str(bits)+".pt")
     G2 = torch.load("G2_"+model+str(bits)+".pt")
