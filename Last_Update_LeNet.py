@@ -39,6 +39,7 @@ def update(b = 0, i = 1, m = 0, s = 0):
     step = step_size[s]
     print('stepsizeis',step)
     RTrain = True
+    decom = False
     Modell = ["LeNet-5","VGG16","VGGFace"]
     modell = Modell[m]
     print('Starts!')
@@ -95,17 +96,17 @@ def update(b = 0, i = 1, m = 0, s = 0):
 ####################################################
 # Decomposition and Reconstruction-LeNet
 ####################################################
-    '''
-    [W,error,G] = TT.reconstruct(model.fc1.weight.data,reshape_size,reshape_rank,itera=itera,bits=bits)
-    print(LA.norm(error))
-v       torch.save(G, "G_"+modell+str(bits)+".pt")
-    '''
-    
+    if decom == True:
+        [W,error,G] = TT.reconstruct(model.fc1.weight.data,reshape_size,reshape_rank,itera=itera,bits=bits)
+        print(LA.norm(error))
+        torch.save(G, "G_"+modell+str(bits)+".pt")
+    else:
+        print('Don\'t decom, just load')
     G = torch.load("G_"+modell+str(bits)+".pt")
     A1 = TT.ProTTSVD(G[:-1])
     A1 = rreshape(A1,[np.prod(np.shape(A1)[:-1]),np.shape(A1)[-1]])#[n1n2n3, r4]
-    W = rreshape(torch.Tensor(TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
-    error = np.array(W)-np.array(model.fc1.weight.data)
+    W = rreshape((TT.ProTTSVD(G)),np.shape(model.fc1.weight.data))
+    error = torch.Tensor(W)-model.fc1.weight.data
     print(LA.norm(error))
     if LA.norm(error)!=0:
         print('model substitude')
@@ -121,6 +122,7 @@ v       torch.save(G, "G_"+modell+str(bits)+".pt")
     '''
     if RTrain == True:
         optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum)
+        print('--------------------------')
         print('Now updating the last core')
         temp = model.fc1.weight.data
         test(args, model, device, test_loader)
@@ -236,7 +238,6 @@ def rreshape(W,sh):
     b = sh[1]
     ssh[1] = a
     ssh[0] = b
-    #print(ssh)
     W = np.reshape(W,ssh)
     # 3
     W = trans01(W)

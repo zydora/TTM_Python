@@ -149,11 +149,7 @@ def ProTTSVD(G):
     return temp
 
 def rreshape(W,sh):
-    '''
-    print(sh)
-    print('aaaaaaaaaaaaaaaaa')
-    print(np.shape(W))
-    '''
+    
     # 1
     W = np.array(W)
     W = trans01(W)
@@ -164,14 +160,10 @@ def rreshape(W,sh):
     ssh[1] = a
     ssh[0] = b
     ssh = np.array(ssh)
-    print(ssh)
     W = np.reshape(W,ssh)
     # 3
     W = trans01(W)
-    '''
-    print('bbbbbbbbbbbbbbbbbbbbb')
-    print(np.shape(W))
-    '''
+   
     return W
 
 def trans01(W):
