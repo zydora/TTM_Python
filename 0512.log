@@ -1,0 +1,3529 @@
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[32 20 32 32]
+[32768    20]
+TerDecom starts!
+iter 1/20 completed
+iter 2/20 completed
+iter 3/20 completed
+iter 4/20 completed
+iter 5/20 completed
+iter 6/20 completed
+iter 7/20 completed
+iter 8/20 completed
+iter 9/20 completed
+iter 10/20 completed
+iter 11/20 completed
+iter 12/20 completed
+iter 13/20 completed
+iter 14/20 completed
+iter 15/20 completed
+iter 16/20 completed
+iter 17/20 completed
+iter 18/20 completed
+iter 19/20 completed
+iter 20/20 completed
+error is  4.567772027040912
+[20  1 20]
+[1024  640]
+TerDecom starts!
+iter 1/640 completed
+iter 2/640 completed
+iter 3/640 completed
+iter 4/640 completed
+iter 5/640 completed
+iter 6/640 completed
+iter 7/640 completed
+iter 8/640 completed
+iter 9/640 completed
+iter 10/640 completed
+iter 11/640 completed
+iter 12/640 completed
+iter 13/640 completed
+iter 14/640 completed
+iter 15/640 completed
+iter 16/640 completed
+iter 17/640 completed
+iter 18/640 completed
+iter 19/640 completed
+iter 20/640 completed
+iter 21/640 completed
+iter 22/640 completed
+iter 23/640 completed
+iter 24/640 completed
+iter 25/640 completed
+iter 26/640 completed
+iter 27/640 completed
+iter 28/640 completed
+iter 29/640 completed
+iter 30/640 completed
+iter 31/640 completed
+iter 32/640 completed
+iter 33/640 completed
+iter 34/640 completed
+iter 35/640 completed
+iter 36/640 completed
+iter 37/640 completed
+iter 38/640 completed
+iter 39/640 completed
+iter 40/640 completed
+iter 41/640 completed
+iter 42/640 completed
+iter 43/640 completed
+iter 44/640 completed
+iter 45/640 completed
+iter 46/640 completed
+iter 47/640 completed
+iter 48/640 completed
+iter 49/640 completed
+iter 50/640 completed
+iter 51/640 completed
+iter 52/640 completed
+iter 53/640 completed
+iter 54/640 completed
+iter 55/640 completed
+iter 56/640 completed
+iter 57/640 completed
+iter 58/640 completed
+iter 59/640 completed
+iter 60/640 completed
+iter 61/640 completed
+iter 62/640 completed
+iter 63/640 completed
+iter 64/640 completed
+iter 65/640 completed
+iter 66/640 completed
+iter 67/640 completed
+iter 68/640 completed
+iter 69/640 completed
+iter 70/640 completed
+iter 71/640 completed
+iter 72/640 completed
+iter 73/640 completed
+iter 74/640 completed
+iter 75/640 completed
+iter 76/640 completed
+iter 77/640 completed
+iter 78/640 completed
+iter 79/640 completed
+iter 80/640 completed
+iter 81/640 completed
+iter 82/640 completed
+iter 83/640 completed
+iter 84/640 completed
+iter 85/640 completed
+iter 86/640 completed
+iter 87/640 completed
+iter 88/640 completed
+iter 89/640 completed
+iter 90/640 completed
+iter 91/640 completed
+iter 92/640 completed
+iter 93/640 completed
+iter 94/640 completed
+iter 95/640 completed
+iter 96/640 completed
+iter 97/640 completed
+iter 98/640 completed
+iter 99/640 completed
+iter 100/640 completed
+iter 101/640 completed
+iter 102/640 completed
+iter 103/640 completed
+iter 104/640 completed
+iter 105/640 completed
+iter 106/640 completed
+iter 107/640 completed
+iter 108/640 completed
+iter 109/640 completed
+iter 110/640 completed
+iter 111/640 completed
+iter 112/640 completed
+iter 113/640 completed
+iter 114/640 completed
+iter 115/640 completed
+iter 116/640 completed
+iter 117/640 completed
+iter 118/640 completed
+iter 119/640 completed
+iter 120/640 completed
+iter 121/640 completed
+iter 122/640 completed
+iter 123/640 completed
+iter 124/640 completed
+iter 125/640 completed
+iter 126/640 completed
+iter 127/640 completed
+iter 128/640 completed
+iter 129/640 completed
+iter 130/640 completed
+iter 131/640 completed
+iter 132/640 completed
+iter 133/640 completed
+iter 134/640 completed
+iter 135/640 completed
+iter 136/640 completed
+iter 137/640 completed
+iter 138/640 completed
+iter 139/640 completed
+iter 140/640 completed
+iter 141/640 completed
+iter 142/640 completed
+iter 143/640 completed
+iter 144/640 completed
+iter 145/640 completed
+iter 146/640 completed
+iter 147/640 completed
+iter 148/640 completed
+iter 149/640 completed
+iter 150/640 completed
+iter 151/640 completed
+iter 152/640 completed
+iter 153/640 completed
+iter 154/640 completed
+iter 155/640 completed
+iter 156/640 completed
+iter 157/640 completed
+iter 158/640 completed
+iter 159/640 completed
+iter 160/640 completed
+iter 161/640 completed
+iter 162/640 completed
+iter 163/640 completed
+iter 164/640 completed
+iter 165/640 completed
+iter 166/640 completed
+iter 167/640 completed
+iter 168/640 completed
+iter 169/640 completed
+iter 170/640 completed
+iter 171/640 completed
+iter 172/640 completed
+iter 173/640 completed
+iter 174/640 completed
+iter 175/640 completed
+iter 176/640 completed
+iter 177/640 completed
+iter 178/640 completed
+iter 179/640 completed
+iter 180/640 completed
+iter 181/640 completed
+iter 182/640 completed
+iter 183/640 completed
+iter 184/640 completed
+iter 185/640 completed
+iter 186/640 completed
+iter 187/640 completed
+iter 188/640 completed
+iter 189/640 completed
+iter 190/640 completed
+iter 191/640 completed
+iter 192/640 completed
+iter 193/640 completed
+iter 194/640 completed
+iter 195/640 completed
+iter 196/640 completed
+iter 197/640 completed
+iter 198/640 completed
+iter 199/640 completed
+iter 200/640 completed
+iter 201/640 completed
+iter 202/640 completed
+iter 203/640 completed
+iter 204/640 completed
+iter 205/640 completed
+iter 206/640 completed
+iter 207/640 completed
+iter 208/640 completed
+iter 209/640 completed
+iter 210/640 completed
+iter 211/640 completed
+iter 212/640 completed
+iter 213/640 completed
+iter 214/640 completed
+iter 215/640 completed
+iter 216/640 completed
+iter 217/640 completed
+iter 218/640 completed
+iter 219/640 completed
+iter 220/640 completed
+iter 221/640 completed
+iter 222/640 completed
+iter 223/640 completed
+iter 224/640 completed
+iter 225/640 completed
+iter 226/640 completed
+iter 227/640 completed
+iter 228/640 completed
+iter 229/640 completed
+iter 230/640 completed
+iter 231/640 completed
+iter 232/640 completed
+iter 233/640 completed
+iter 234/640 completed
+iter 235/640 completed
+iter 236/640 completed
+iter 237/640 completed
+iter 238/640 completed
+iter 239/640 completed
+iter 240/640 completed
+iter 241/640 completed
+iter 242/640 completed
+iter 243/640 completed
+iter 244/640 completed
+iter 245/640 completed
+iter 246/640 completed
+iter 247/640 completed
+iter 248/640 completed
+iter 249/640 completed
+iter 250/640 completed
+iter 251/640 completed
+iter 252/640 completed
+iter 253/640 completed
+iter 254/640 completed
+iter 255/640 completed
+iter 256/640 completed
+iter 257/640 completed
+iter 258/640 completed
+iter 259/640 completed
+iter 260/640 completed
+iter 261/640 completed
+iter 262/640 completed
+iter 263/640 completed
+iter 264/640 completed
+iter 265/640 completed
+iter 266/640 completed
+iter 267/640 completed
+iter 268/640 completed
+iter 269/640 completed
+iter 270/640 completed
+iter 271/640 completed
+iter 272/640 completed
+iter 273/640 completed
+iter 274/640 completed
+iter 275/640 completed
+iter 276/640 completed
+iter 277/640 completed
+iter 278/640 completed
+iter 279/640 completed
+iter 280/640 completed
+iter 281/640 completed
+iter 282/640 completed
+iter 283/640 completed
+iter 284/640 completed
+iter 285/640 completed
+iter 286/640 completed
+iter 287/640 completed
+iter 288/640 completed
+iter 289/640 completed
+iter 290/640 completed
+iter 291/640 completed
+iter 292/640 completed
+iter 293/640 completed
+iter 294/640 completed
+iter 295/640 completed
+iter 296/640 completed
+iter 297/640 completed
+iter 298/640 completed
+iter 299/640 completed
+iter 300/640 completed
+iter 301/640 completed
+iter 302/640 completed
+iter 303/640 completed
+iter 304/640 completed
+iter 305/640 completed
+iter 306/640 completed
+iter 307/640 completed
+iter 308/640 completed
+iter 309/640 completed
+iter 310/640 completed
+iter 311/640 completed
+iter 312/640 completed
+iter 313/640 completed
+iter 314/640 completed
+iter 315/640 completed
+iter 316/640 completed
+iter 317/640 completed
+iter 318/640 completed
+iter 319/640 completed
+iter 320/640 completed
+iter 321/640 completed
+iter 322/640 completed
+iter 323/640 completed
+iter 324/640 completed
+iter 325/640 completed
+iter 326/640 completed
+iter 327/640 completed
+iter 328/640 completed
+iter 329/640 completed
+iter 330/640 completed
+iter 331/640 completed
+iter 332/640 completed
+iter 333/640 completed
+iter 334/640 completed
+iter 335/640 completed
+iter 336/640 completed
+iter 337/640 completed
+iter 338/640 completed
+iter 339/640 completed
+iter 340/640 completed
+iter 341/640 completed
+iter 342/640 completed
+iter 343/640 completed
+iter 344/640 completed
+iter 345/640 completed
+iter 346/640 completed
+iter 347/640 completed
+iter 348/640 completed
+iter 349/640 completed
+iter 350/640 completed
+iter 351/640 completed
+iter 352/640 completed
+iter 353/640 completed
+iter 354/640 completed
+iter 355/640 completed
+iter 356/640 completed
+iter 357/640 completed
+iter 358/640 completed
+iter 359/640 completed
+iter 360/640 completed
+iter 361/640 completed
+iter 362/640 completed
+iter 363/640 completed
+iter 364/640 completed
+iter 365/640 completed
+iter 366/640 completed
+iter 367/640 completed
+iter 368/640 completed
+iter 369/640 completed
+iter 370/640 completed
+iter 371/640 completed
+iter 372/640 completed
+iter 373/640 completed
+iter 374/640 completed
+iter 375/640 completed
+iter 376/640 completed
+iter 377/640 completed
+iter 378/640 completed
+iter 379/640 completed
+iter 380/640 completed
+iter 381/640 completed
+iter 382/640 completed
+iter 383/640 completed
+iter 384/640 completed
+iter 385/640 completed
+iter 386/640 completed
+iter 387/640 completed
+iter 388/640 completed
+iter 389/640 completed
+iter 390/640 completed
+iter 391/640 completed
+iter 392/640 completed
+iter 393/640 completed
+iter 394/640 completed
+iter 395/640 completed
+iter 396/640 completed
+iter 397/640 completed
+iter 398/640 completed
+iter 399/640 completed
+iter 400/640 completed
+iter 401/640 completed
+iter 402/640 completed
+iter 403/640 completed
+iter 404/640 completed
+iter 405/640 completed
+iter 406/640 completed
+iter 407/640 completed
+iter 408/640 completed
+iter 409/640 completed
+iter 410/640 completed
+iter 411/640 completed
+iter 412/640 completed
+iter 413/640 completed
+iter 414/640 completed
+iter 415/640 completed
+iter 416/640 completed
+iter 417/640 completed
+iter 418/640 completed
+iter 419/640 completed
+iter 420/640 completed
+iter 421/640 completed
+iter 422/640 completed
+iter 423/640 completed
+iter 424/640 completed
+iter 425/640 completed
+iter 426/640 completed
+iter 427/640 completed
+iter 428/640 completed
+iter 429/640 completed
+iter 430/640 completed
+iter 431/640 completed
+iter 432/640 completed
+iter 433/640 completed
+iter 434/640 completed
+iter 435/640 completed
+iter 436/640 completed
+iter 437/640 completed
+iter 438/640 completed
+iter 439/640 completed
+iter 440/640 completed
+iter 441/640 completed
+iter 442/640 completed
+iter 443/640 completed
+iter 444/640 completed
+iter 445/640 completed
+iter 446/640 completed
+iter 447/640 completed
+iter 448/640 completed
+iter 449/640 completed
+iter 450/640 completed
+iter 451/640 completed
+iter 452/640 completed
+iter 453/640 completed
+iter 454/640 completed
+iter 455/640 completed
+iter 456/640 completed
+iter 457/640 completed
+iter 458/640 completed
+iter 459/640 completed
+iter 460/640 completed
+iter 461/640 completed
+iter 462/640 completed
+iter 463/640 completed
+iter 464/640 completed
+iter 465/640 completed
+iter 466/640 completed
+iter 467/640 completed
+iter 468/640 completed
+iter 469/640 completed
+iter 470/640 completed
+iter 471/640 completed
+iter 472/640 completed
+iter 473/640 completed
+iter 474/640 completed
+iter 475/640 completed
+iter 476/640 completed
+iter 477/640 completed
+iter 478/640 completed
+iter 479/640 completed
+iter 480/640 completed
+iter 481/640 completed
+iter 482/640 completed
+iter 483/640 completed
+iter 484/640 completed
+iter 485/640 completed
+iter 486/640 completed
+iter 487/640 completed
+iter 488/640 completed
+iter 489/640 completed
+iter 490/640 completed
+iter 491/640 completed
+iter 492/640 completed
+iter 493/640 completed
+iter 494/640 completed
+iter 495/640 completed
+iter 496/640 completed
+iter 497/640 completed
+iter 498/640 completed
+iter 499/640 completed
+iter 500/640 completed
+iter 501/640 completed
+iter 502/640 completed
+iter 503/640 completed
+iter 504/640 completed
+iter 505/640 completed
+iter 506/640 completed
+iter 507/640 completed
+iter 508/640 completed
+iter 509/640 completed
+iter 510/640 completed
+iter 511/640 completed
+iter 512/640 completed
+iter 513/640 completed
+iter 514/640 completed
+iter 515/640 completed
+iter 516/640 completed
+iter 517/640 completed
+iter 518/640 completed
+iter 519/640 completed
+iter 520/640 completed
+iter 521/640 completed
+iter 522/640 completed
+iter 523/640 completed
+iter 524/640 completed
+iter 525/640 completed
+iter 526/640 completed
+iter 527/640 completed
+iter 528/640 completed
+iter 529/640 completed
+iter 530/640 completed
+iter 531/640 completed
+iter 532/640 completed
+iter 533/640 completed
+iter 534/640 completed
+iter 535/640 completed
+iter 536/640 completed
+iter 537/640 completed
+iter 538/640 completed
+iter 539/640 completed
+iter 540/640 completed
+iter 541/640 completed
+iter 542/640 completed
+iter 543/640 completed
+iter 544/640 completed
+iter 545/640 completed
+iter 546/640 completed
+iter 547/640 completed
+iter 548/640 completed
+iter 549/640 completed
+iter 550/640 completed
+iter 551/640 completed
+iter 552/640 completed
+iter 553/640 completed
+iter 554/640 completed
+iter 555/640 completed
+iter 556/640 completed
+iter 557/640 completed
+iter 558/640 completed
+iter 559/640 completed
+iter 560/640 completed
+iter 561/640 completed
+iter 562/640 completed
+iter 563/640 completed
+iter 564/640 completed
+iter 565/640 completed
+iter 566/640 completed
+iter 567/640 completed
+iter 568/640 completed
+iter 569/640 completed
+iter 570/640 completed
+iter 571/640 completed
+iter 572/640 completed
+iter 573/640 completed
+iter 574/640 completed
+iter 575/640 completed
+iter 576/640 completed
+iter 577/640 completed
+iter 578/640 completed
+iter 579/640 completed
+iter 580/640 completed
+iter 581/640 completed
+iter 582/640 completed
+iter 583/640 completed
+iter 584/640 completed
+iter 585/640 completed
+iter 586/640 completed
+iter 587/640 completed
+iter 588/640 completed
+iter 589/640 completed
+iter 590/640 completed
+iter 591/640 completed
+iter 592/640 completed
+iter 593/640 completed
+iter 594/640 completed
+iter 595/640 completed
+iter 596/640 completed
+iter 597/640 completed
+iter 598/640 completed
+iter 599/640 completed
+iter 600/640 completed
+iter 601/640 completed
+iter 602/640 completed
+iter 603/640 completed
+iter 604/640 completed
+iter 605/640 completed
+iter 606/640 completed
+iter 607/640 completed
+iter 608/640 completed
+iter 609/640 completed
+iter 610/640 completed
+iter 611/640 completed
+iter 612/640 completed
+iter 613/640 completed
+iter 614/640 completed
+iter 615/640 completed
+iter 616/640 completed
+iter 617/640 completed
+iter 618/640 completed
+iter 619/640 completed
+iter 620/640 completed
+iter 621/640 completed
+iter 622/640 completed
+iter 623/640 completed
+iter 624/640 completed
+iter 625/640 completed
+iter 626/640 completed
+iter 627/640 completed
+iter 628/640 completed
+iter 629/640 completed
+iter 630/640 completed
+iter 631/640 completed
+iter 632/640 completed
+iter 633/640 completed
+iter 634/640 completed
+iter 635/640 completed
+iter 636/640 completed
+iter 637/640 completed
+iter 638/640 completed
+iter 639/640 completed
+iter 640/640 completed
+error is  0.7730977021927963
+[ 32  20 640]
+[   32 20480]
+TerDecom starts!
+iter 1/32 completed
+iter 2/32 completed
+iter 3/32 completed
+iter 4/32 completed
+iter 5/32 completed
+iter 6/32 completed
+iter 7/32 completed
+iter 8/32 completed
+iter 9/32 completed
+iter 10/32 completed
+iter 11/32 completed
+iter 12/32 completed
+iter 13/32 completed
+iter 14/32 completed
+iter 15/32 completed
+iter 16/32 completed
+iter 17/32 completed
+iter 18/32 completed
+iter 19/32 completed
+iter 20/32 completed
+iter 21/32 completed
+iter 22/32 completed
+iter 23/32 completed
+iter 24/32 completed
+iter 25/32 completed
+iter 26/32 completed
+iter 27/32 completed
+iter 28/32 completed
+iter 29/32 completed
+iter 30/32 completed
+iter 31/32 completed
+iter 32/32 completed
+error is  0.5139484459557332
+[ 32 640  32]
+[32 32  1]
+itera is: 60
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+reconstruction accomplished!
+28.178736344476427
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+28.178738
+model substitude
+Without train, just test reconstruction accuracy
+Train set
+
+Test set: Average loss: 0.9264, Accuracy: 47078/60000 (78%)
+
+Test set
+
+Test set: Average loss: 0.9145, Accuracy: 7916/10000 (79%)
+
+0 _finished
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[32 20 32 32]
+[32768    20]
+TerDecom starts!
+iter 1/20 completed
+iter 2/20 completed
+iter 3/20 completed
+iter 4/20 completed
+iter 5/20 completed
+iter 6/20 completed
+iter 7/20 completed
+iter 8/20 completed
+iter 9/20 completed
+iter 10/20 completed
+iter 11/20 completed
+iter 12/20 completed
+iter 13/20 completed
+iter 14/20 completed
+iter 15/20 completed
+iter 16/20 completed
+iter 17/20 completed
+iter 18/20 completed
+iter 19/20 completed
+iter 20/20 completed
+error is  4.11107612912761
+[20  1 20]
+[1024  640]
+TerDecom starts!
+iter 1/640 completed
+iter 2/640 completed
+iter 3/640 completed
+iter 4/640 completed
+iter 5/640 completed
+iter 6/640 completed
+iter 7/640 completed
+iter 8/640 completed
+iter 9/640 completed
+iter 10/640 completed
+iter 11/640 completed
+iter 12/640 completed
+iter 13/640 completed
+iter 14/640 completed
+iter 15/640 completed
+iter 16/640 completed
+iter 17/640 completed
+iter 18/640 completed
+iter 19/640 completed
+iter 20/640 completed
+iter 21/640 completed
+iter 22/640 completed
+iter 23/640 completed
+iter 24/640 completed
+iter 25/640 completed
+iter 26/640 completed
+iter 27/640 completed
+iter 28/640 completed
+iter 29/640 completed
+iter 30/640 completed
+iter 31/640 completed
+iter 32/640 completed
+iter 33/640 completed
+iter 34/640 completed
+iter 35/640 completed
+iter 36/640 completed
+iter 37/640 completed
+iter 38/640 completed
+iter 39/640 completed
+iter 40/640 completed
+iter 41/640 completed
+iter 42/640 completed
+iter 43/640 completed
+iter 44/640 completed
+iter 45/640 completed
+iter 46/640 completed
+iter 47/640 completed
+iter 48/640 completed
+iter 49/640 completed
+iter 50/640 completed
+iter 51/640 completed
+iter 52/640 completed
+iter 53/640 completed
+iter 54/640 completed
+iter 55/640 completed
+iter 56/640 completed
+iter 57/640 completed
+iter 58/640 completed
+iter 59/640 completed
+iter 60/640 completed
+iter 61/640 completed
+iter 62/640 completed
+iter 63/640 completed
+iter 64/640 completed
+iter 65/640 completed
+iter 66/640 completed
+iter 67/640 completed
+iter 68/640 completed
+iter 69/640 completed
+iter 70/640 completed
+iter 71/640 completed
+iter 72/640 completed
+iter 73/640 completed
+iter 74/640 completed
+iter 75/640 completed
+iter 76/640 completed
+iter 77/640 completed
+iter 78/640 completed
+iter 79/640 completed
+iter 80/640 completed
+iter 81/640 completed
+iter 82/640 completed
+iter 83/640 completed
+iter 84/640 completed
+iter 85/640 completed
+iter 86/640 completed
+iter 87/640 completed
+iter 88/640 completed
+iter 89/640 completed
+iter 90/640 completed
+iter 91/640 completed
+iter 92/640 completed
+iter 93/640 completed
+iter 94/640 completed
+iter 95/640 completed
+iter 96/640 completed
+iter 97/640 completed
+iter 98/640 completed
+iter 99/640 completed
+iter 100/640 completed
+iter 101/640 completed
+iter 102/640 completed
+iter 103/640 completed
+iter 104/640 completed
+iter 105/640 completed
+iter 106/640 completed
+iter 107/640 completed
+iter 108/640 completed
+iter 109/640 completed
+iter 110/640 completed
+iter 111/640 completed
+iter 112/640 completed
+iter 113/640 completed
+iter 114/640 completed
+iter 115/640 completed
+iter 116/640 completed
+iter 117/640 completed
+iter 118/640 completed
+iter 119/640 completed
+iter 120/640 completed
+iter 121/640 completed
+iter 122/640 completed
+iter 123/640 completed
+iter 124/640 completed
+iter 125/640 completed
+iter 126/640 completed
+iter 127/640 completed
+iter 128/640 completed
+iter 129/640 completed
+iter 130/640 completed
+iter 131/640 completed
+iter 132/640 completed
+iter 133/640 completed
+iter 134/640 completed
+iter 135/640 completed
+iter 136/640 completed
+iter 137/640 completed
+iter 138/640 completed
+iter 139/640 completed
+iter 140/640 completed
+iter 141/640 completed
+iter 142/640 completed
+iter 143/640 completed
+iter 144/640 completed
+iter 145/640 completed
+iter 146/640 completed
+iter 147/640 completed
+iter 148/640 completed
+iter 149/640 completed
+iter 150/640 completed
+iter 151/640 completed
+iter 152/640 completed
+iter 153/640 completed
+iter 154/640 completed
+iter 155/640 completed
+iter 156/640 completed
+iter 157/640 completed
+iter 158/640 completed
+iter 159/640 completed
+iter 160/640 completed
+iter 161/640 completed
+iter 162/640 completed
+iter 163/640 completed
+iter 164/640 completed
+iter 165/640 completed
+iter 166/640 completed
+iter 167/640 completed
+iter 168/640 completed
+iter 169/640 completed
+iter 170/640 completed
+iter 171/640 completed
+iter 172/640 completed
+iter 173/640 completed
+iter 174/640 completed
+iter 175/640 completed
+iter 176/640 completed
+iter 177/640 completed
+iter 178/640 completed
+iter 179/640 completed
+iter 180/640 completed
+iter 181/640 completed
+iter 182/640 completed
+iter 183/640 completed
+iter 184/640 completed
+iter 185/640 completed
+iter 186/640 completed
+iter 187/640 completed
+iter 188/640 completed
+iter 189/640 completed
+iter 190/640 completed
+iter 191/640 completed
+iter 192/640 completed
+iter 193/640 completed
+iter 194/640 completed
+iter 195/640 completed
+iter 196/640 completed
+iter 197/640 completed
+iter 198/640 completed
+iter 199/640 completed
+iter 200/640 completed
+iter 201/640 completed
+iter 202/640 completed
+iter 203/640 completed
+iter 204/640 completed
+iter 205/640 completed
+iter 206/640 completed
+iter 207/640 completed
+iter 208/640 completed
+iter 209/640 completed
+iter 210/640 completed
+iter 211/640 completed
+iter 212/640 completed
+iter 213/640 completed
+iter 214/640 completed
+iter 215/640 completed
+iter 216/640 completed
+iter 217/640 completed
+iter 218/640 completed
+iter 219/640 completed
+iter 220/640 completed
+iter 221/640 completed
+iter 222/640 completed
+iter 223/640 completed
+iter 224/640 completed
+iter 225/640 completed
+iter 226/640 completed
+iter 227/640 completed
+iter 228/640 completed
+iter 229/640 completed
+iter 230/640 completed
+iter 231/640 completed
+iter 232/640 completed
+iter 233/640 completed
+iter 234/640 completed
+iter 235/640 completed
+iter 236/640 completed
+iter 237/640 completed
+iter 238/640 completed
+iter 239/640 completed
+iter 240/640 completed
+iter 241/640 completed
+iter 242/640 completed
+iter 243/640 completed
+iter 244/640 completed
+iter 245/640 completed
+iter 246/640 completed
+iter 247/640 completed
+iter 248/640 completed
+iter 249/640 completed
+iter 250/640 completed
+iter 251/640 completed
+iter 252/640 completed
+iter 253/640 completed
+iter 254/640 completed
+iter 255/640 completed
+iter 256/640 completed
+iter 257/640 completed
+iter 258/640 completed
+iter 259/640 completed
+iter 260/640 completed
+iter 261/640 completed
+iter 262/640 completed
+iter 263/640 completed
+iter 264/640 completed
+iter 265/640 completed
+iter 266/640 completed
+iter 267/640 completed
+iter 268/640 completed
+iter 269/640 completed
+iter 270/640 completed
+iter 271/640 completed
+iter 272/640 completed
+iter 273/640 completed
+iter 274/640 completed
+iter 275/640 completed
+iter 276/640 completed
+iter 277/640 completed
+iter 278/640 completed
+iter 279/640 completed
+iter 280/640 completed
+iter 281/640 completed
+iter 282/640 completed
+iter 283/640 completed
+iter 284/640 completed
+iter 285/640 completed
+iter 286/640 completed
+iter 287/640 completed
+iter 288/640 completed
+iter 289/640 completed
+iter 290/640 completed
+iter 291/640 completed
+iter 292/640 completed
+iter 293/640 completed
+iter 294/640 completed
+iter 295/640 completed
+iter 296/640 completed
+iter 297/640 completed
+iter 298/640 completed
+iter 299/640 completed
+iter 300/640 completed
+iter 301/640 completed
+iter 302/640 completed
+iter 303/640 completed
+iter 304/640 completed
+iter 305/640 completed
+iter 306/640 completed
+iter 307/640 completed
+iter 308/640 completed
+iter 309/640 completed
+iter 310/640 completed
+iter 311/640 completed
+iter 312/640 completed
+iter 313/640 completed
+iter 314/640 completed
+iter 315/640 completed
+iter 316/640 completed
+iter 317/640 completed
+iter 318/640 completed
+iter 319/640 completed
+iter 320/640 completed
+iter 321/640 completed
+iter 322/640 completed
+iter 323/640 completed
+iter 324/640 completed
+iter 325/640 completed
+iter 326/640 completed
+iter 327/640 completed
+iter 328/640 completed
+iter 329/640 completed
+iter 330/640 completed
+iter 331/640 completed
+iter 332/640 completed
+iter 333/640 completed
+iter 334/640 completed
+iter 335/640 completed
+iter 336/640 completed
+iter 337/640 completed
+iter 338/640 completed
+iter 339/640 completed
+iter 340/640 completed
+iter 341/640 completed
+iter 342/640 completed
+iter 343/640 completed
+iter 344/640 completed
+iter 345/640 completed
+iter 346/640 completed
+iter 347/640 completed
+iter 348/640 completed
+iter 349/640 completed
+iter 350/640 completed
+iter 351/640 completed
+iter 352/640 completed
+iter 353/640 completed
+iter 354/640 completed
+iter 355/640 completed
+iter 356/640 completed
+iter 357/640 completed
+iter 358/640 completed
+iter 359/640 completed
+iter 360/640 completed
+iter 361/640 completed
+iter 362/640 completed
+iter 363/640 completed
+iter 364/640 completed
+iter 365/640 completed
+iter 366/640 completed
+iter 367/640 completed
+iter 368/640 completed
+iter 369/640 completed
+iter 370/640 completed
+iter 371/640 completed
+iter 372/640 completed
+iter 373/640 completed
+iter 374/640 completed
+iter 375/640 completed
+iter 376/640 completed
+iter 377/640 completed
+iter 378/640 completed
+iter 379/640 completed
+iter 380/640 completed
+iter 381/640 completed
+iter 382/640 completed
+iter 383/640 completed
+iter 384/640 completed
+iter 385/640 completed
+iter 386/640 completed
+iter 387/640 completed
+iter 388/640 completed
+iter 389/640 completed
+iter 390/640 completed
+iter 391/640 completed
+iter 392/640 completed
+iter 393/640 completed
+iter 394/640 completed
+iter 395/640 completed
+iter 396/640 completed
+iter 397/640 completed
+iter 398/640 completed
+iter 399/640 completed
+iter 400/640 completed
+iter 401/640 completed
+iter 402/640 completed
+iter 403/640 completed
+iter 404/640 completed
+iter 405/640 completed
+iter 406/640 completed
+iter 407/640 completed
+iter 408/640 completed
+iter 409/640 completed
+iter 410/640 completed
+iter 411/640 completed
+iter 412/640 completed
+iter 413/640 completed
+iter 414/640 completed
+iter 415/640 completed
+iter 416/640 completed
+iter 417/640 completed
+iter 418/640 completed
+iter 419/640 completed
+iter 420/640 completed
+iter 421/640 completed
+iter 422/640 completed
+iter 423/640 completed
+iter 424/640 completed
+iter 425/640 completed
+iter 426/640 completed
+iter 427/640 completed
+iter 428/640 completed
+iter 429/640 completed
+iter 430/640 completed
+iter 431/640 completed
+iter 432/640 completed
+iter 433/640 completed
+iter 434/640 completed
+iter 435/640 completed
+iter 436/640 completed
+iter 437/640 completed
+iter 438/640 completed
+iter 439/640 completed
+iter 440/640 completed
+iter 441/640 completed
+iter 442/640 completed
+iter 443/640 completed
+iter 444/640 completed
+iter 445/640 completed
+iter 446/640 completed
+iter 447/640 completed
+iter 448/640 completed
+iter 449/640 completed
+iter 450/640 completed
+iter 451/640 completed
+iter 452/640 completed
+iter 453/640 completed
+iter 454/640 completed
+iter 455/640 completed
+iter 456/640 completed
+iter 457/640 completed
+iter 458/640 completed
+iter 459/640 completed
+iter 460/640 completed
+iter 461/640 completed
+iter 462/640 completed
+iter 463/640 completed
+iter 464/640 completed
+iter 465/640 completed
+iter 466/640 completed
+iter 467/640 completed
+iter 468/640 completed
+iter 469/640 completed
+iter 470/640 completed
+iter 471/640 completed
+iter 472/640 completed
+iter 473/640 completed
+iter 474/640 completed
+iter 475/640 completed
+iter 476/640 completed
+iter 477/640 completed
+iter 478/640 completed
+iter 479/640 completed
+iter 480/640 completed
+iter 481/640 completed
+iter 482/640 completed
+iter 483/640 completed
+iter 484/640 completed
+iter 485/640 completed
+iter 486/640 completed
+iter 487/640 completed
+iter 488/640 completed
+iter 489/640 completed
+iter 490/640 completed
+iter 491/640 completed
+iter 492/640 completed
+iter 493/640 completed
+iter 494/640 completed
+iter 495/640 completed
+iter 496/640 completed
+iter 497/640 completed
+iter 498/640 completed
+iter 499/640 completed
+iter 500/640 completed
+iter 501/640 completed
+iter 502/640 completed
+iter 503/640 completed
+iter 504/640 completed
+iter 505/640 completed
+iter 506/640 completed
+iter 507/640 completed
+iter 508/640 completed
+iter 509/640 completed
+iter 510/640 completed
+iter 511/640 completed
+iter 512/640 completed
+iter 513/640 completed
+iter 514/640 completed
+iter 515/640 completed
+iter 516/640 completed
+iter 517/640 completed
+iter 518/640 completed
+iter 519/640 completed
+iter 520/640 completed
+iter 521/640 completed
+iter 522/640 completed
+iter 523/640 completed
+iter 524/640 completed
+iter 525/640 completed
+iter 526/640 completed
+iter 527/640 completed
+iter 528/640 completed
+iter 529/640 completed
+iter 530/640 completed
+iter 531/640 completed
+iter 532/640 completed
+iter 533/640 completed
+iter 534/640 completed
+iter 535/640 completed
+iter 536/640 completed
+iter 537/640 completed
+iter 538/640 completed
+iter 539/640 completed
+iter 540/640 completed
+iter 541/640 completed
+iter 542/640 completed
+iter 543/640 completed
+iter 544/640 completed
+iter 545/640 completed
+iter 546/640 completed
+iter 547/640 completed
+iter 548/640 completed
+iter 549/640 completed
+iter 550/640 completed
+iter 551/640 completed
+iter 552/640 completed
+iter 553/640 completed
+iter 554/640 completed
+iter 555/640 completed
+iter 556/640 completed
+iter 557/640 completed
+iter 558/640 completed
+iter 559/640 completed
+iter 560/640 completed
+iter 561/640 completed
+iter 562/640 completed
+iter 563/640 completed
+iter 564/640 completed
+iter 565/640 completed
+iter 566/640 completed
+iter 567/640 completed
+iter 568/640 completed
+iter 569/640 completed
+iter 570/640 completed
+iter 571/640 completed
+iter 572/640 completed
+iter 573/640 completed
+iter 574/640 completed
+iter 575/640 completed
+iter 576/640 completed
+iter 577/640 completed
+iter 578/640 completed
+iter 579/640 completed
+iter 580/640 completed
+iter 581/640 completed
+iter 582/640 completed
+iter 583/640 completed
+iter 584/640 completed
+iter 585/640 completed
+iter 586/640 completed
+iter 587/640 completed
+iter 588/640 completed
+iter 589/640 completed
+iter 590/640 completed
+iter 591/640 completed
+iter 592/640 completed
+iter 593/640 completed
+iter 594/640 completed
+iter 595/640 completed
+iter 596/640 completed
+iter 597/640 completed
+iter 598/640 completed
+iter 599/640 completed
+iter 600/640 completed
+iter 601/640 completed
+iter 602/640 completed
+iter 603/640 completed
+iter 604/640 completed
+iter 605/640 completed
+iter 606/640 completed
+iter 607/640 completed
+iter 608/640 completed
+iter 609/640 completed
+iter 610/640 completed
+iter 611/640 completed
+iter 612/640 completed
+iter 613/640 completed
+iter 614/640 completed
+iter 615/640 completed
+iter 616/640 completed
+iter 617/640 completed
+iter 618/640 completed
+iter 619/640 completed
+iter 620/640 completed
+iter 621/640 completed
+iter 622/640 completed
+iter 623/640 completed
+iter 624/640 completed
+iter 625/640 completed
+iter 626/640 completed
+iter 627/640 completed
+iter 628/640 completed
+iter 629/640 completed
+iter 630/640 completed
+iter 631/640 completed
+iter 632/640 completed
+iter 633/640 completed
+iter 634/640 completed
+iter 635/640 completed
+iter 636/640 completed
+iter 637/640 completed
+iter 638/640 completed
+iter 639/640 completed
+iter 640/640 completed
+error is  0.7743494981101132
+[ 32  20 640]
+[   32 20480]
+TerDecom starts!
+iter 1/32 completed
+iter 2/32 completed
+iter 3/32 completed
+iter 4/32 completed
+iter 5/32 completed
+iter 6/32 completed
+iter 7/32 completed
+iter 8/32 completed
+iter 9/32 completed
+iter 10/32 completed
+iter 11/32 completed
+iter 12/32 completed
+iter 13/32 completed
+iter 14/32 completed
+iter 15/32 completed
+iter 16/32 completed
+iter 17/32 completed
+iter 18/32 completed
+iter 19/32 completed
+iter 20/32 completed
+iter 21/32 completed
+iter 22/32 completed
+iter 23/32 completed
+iter 24/32 completed
+iter 25/32 completed
+iter 26/32 completed
+iter 27/32 completed
+iter 28/32 completed
+iter 29/32 completed
+iter 30/32 completed
+iter 31/32 completed
+iter 32/32 completed
+error is  0.1381560802561392
+[ 32 640  32]
+[32 32  1]
+itera is: 60
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+reconstruction accomplished!
+8.680844432405229
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+8.680844
+model substitude
+Without train, just test reconstruction accuracy
+Train set
+
+Test set: Average loss: 0.6030, Accuracy: 58541/60000 (98%)
+
+Test set
+
+Test set: Average loss: 0.5965, Accuracy: 9728/10000 (97%)
+
+1 _finished
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[32 20 32 32]
+[32768    20]
+TerDecom starts!
+iter 1/20 completed
+iter 2/20 completed
+iter 3/20 completed
+iter 4/20 completed
+iter 5/20 completed
+iter 6/20 completed
+iter 7/20 completed
+iter 8/20 completed
+iter 9/20 completed
+iter 10/20 completed
+iter 11/20 completed
+iter 12/20 completed
+iter 13/20 completed
+iter 14/20 completed
+iter 15/20 completed
+iter 16/20 completed
+iter 17/20 completed
+iter 18/20 completed
+iter 19/20 completed
+iter 20/20 completed
+error is  4.057386917672495
+[20  1 20]
+[1024  640]
+TerDecom starts!
+iter 1/640 completed
+iter 2/640 completed
+iter 3/640 completed
+iter 4/640 completed
+iter 5/640 completed
+iter 6/640 completed
+iter 7/640 completed
+iter 8/640 completed
+iter 9/640 completed
+iter 10/640 completed
+iter 11/640 completed
+iter 12/640 completed
+iter 13/640 completed
+iter 14/640 completed
+iter 15/640 completed
+iter 16/640 completed
+iter 17/640 completed
+iter 18/640 completed
+iter 19/640 completed
+iter 20/640 completed
+iter 21/640 completed
+iter 22/640 completed
+iter 23/640 completed
+iter 24/640 completed
+iter 25/640 completed
+iter 26/640 completed
+iter 27/640 completed
+iter 28/640 completed
+iter 29/640 completed
+iter 30/640 completed
+iter 31/640 completed
+iter 32/640 completed
+iter 33/640 completed
+iter 34/640 completed
+iter 35/640 completed
+iter 36/640 completed
+iter 37/640 completed
+iter 38/640 completed
+iter 39/640 completed
+iter 40/640 completed
+iter 41/640 completed
+iter 42/640 completed
+iter 43/640 completed
+iter 44/640 completed
+iter 45/640 completed
+iter 46/640 completed
+iter 47/640 completed
+iter 48/640 completed
+iter 49/640 completed
+iter 50/640 completed
+iter 51/640 completed
+iter 52/640 completed
+iter 53/640 completed
+iter 54/640 completed
+iter 55/640 completed
+iter 56/640 completed
+iter 57/640 completed
+iter 58/640 completed
+iter 59/640 completed
+iter 60/640 completed
+iter 61/640 completed
+iter 62/640 completed
+iter 63/640 completed
+iter 64/640 completed
+iter 65/640 completed
+iter 66/640 completed
+iter 67/640 completed
+iter 68/640 completed
+iter 69/640 completed
+iter 70/640 completed
+iter 71/640 completed
+iter 72/640 completed
+iter 73/640 completed
+iter 74/640 completed
+iter 75/640 completed
+iter 76/640 completed
+iter 77/640 completed
+iter 78/640 completed
+iter 79/640 completed
+iter 80/640 completed
+iter 81/640 completed
+iter 82/640 completed
+iter 83/640 completed
+iter 84/640 completed
+iter 85/640 completed
+iter 86/640 completed
+iter 87/640 completed
+iter 88/640 completed
+iter 89/640 completed
+iter 90/640 completed
+iter 91/640 completed
+iter 92/640 completed
+iter 93/640 completed
+iter 94/640 completed
+iter 95/640 completed
+iter 96/640 completed
+iter 97/640 completed
+iter 98/640 completed
+iter 99/640 completed
+iter 100/640 completed
+iter 101/640 completed
+iter 102/640 completed
+iter 103/640 completed
+iter 104/640 completed
+iter 105/640 completed
+iter 106/640 completed
+iter 107/640 completed
+iter 108/640 completed
+iter 109/640 completed
+iter 110/640 completed
+iter 111/640 completed
+iter 112/640 completed
+iter 113/640 completed
+iter 114/640 completed
+iter 115/640 completed
+iter 116/640 completed
+iter 117/640 completed
+iter 118/640 completed
+iter 119/640 completed
+iter 120/640 completed
+iter 121/640 completed
+iter 122/640 completed
+iter 123/640 completed
+iter 124/640 completed
+iter 125/640 completed
+iter 126/640 completed
+iter 127/640 completed
+iter 128/640 completed
+iter 129/640 completed
+iter 130/640 completed
+iter 131/640 completed
+iter 132/640 completed
+iter 133/640 completed
+iter 134/640 completed
+iter 135/640 completed
+iter 136/640 completed
+iter 137/640 completed
+iter 138/640 completed
+iter 139/640 completed
+iter 140/640 completed
+iter 141/640 completed
+iter 142/640 completed
+iter 143/640 completed
+iter 144/640 completed
+iter 145/640 completed
+iter 146/640 completed
+iter 147/640 completed
+iter 148/640 completed
+iter 149/640 completed
+iter 150/640 completed
+iter 151/640 completed
+iter 152/640 completed
+iter 153/640 completed
+iter 154/640 completed
+iter 155/640 completed
+iter 156/640 completed
+iter 157/640 completed
+iter 158/640 completed
+iter 159/640 completed
+iter 160/640 completed
+iter 161/640 completed
+iter 162/640 completed
+iter 163/640 completed
+iter 164/640 completed
+iter 165/640 completed
+iter 166/640 completed
+iter 167/640 completed
+iter 168/640 completed
+iter 169/640 completed
+iter 170/640 completed
+iter 171/640 completed
+iter 172/640 completed
+iter 173/640 completed
+iter 174/640 completed
+iter 175/640 completed
+iter 176/640 completed
+iter 177/640 completed
+iter 178/640 completed
+iter 179/640 completed
+iter 180/640 completed
+iter 181/640 completed
+iter 182/640 completed
+iter 183/640 completed
+iter 184/640 completed
+iter 185/640 completed
+iter 186/640 completed
+iter 187/640 completed
+iter 188/640 completed
+iter 189/640 completed
+iter 190/640 completed
+iter 191/640 completed
+iter 192/640 completed
+iter 193/640 completed
+iter 194/640 completed
+iter 195/640 completed
+iter 196/640 completed
+iter 197/640 completed
+iter 198/640 completed
+iter 199/640 completed
+iter 200/640 completed
+iter 201/640 completed
+iter 202/640 completed
+iter 203/640 completed
+iter 204/640 completed
+iter 205/640 completed
+iter 206/640 completed
+iter 207/640 completed
+iter 208/640 completed
+iter 209/640 completed
+iter 210/640 completed
+iter 211/640 completed
+iter 212/640 completed
+iter 213/640 completed
+iter 214/640 completed
+iter 215/640 completed
+iter 216/640 completed
+iter 217/640 completed
+iter 218/640 completed
+iter 219/640 completed
+iter 220/640 completed
+iter 221/640 completed
+iter 222/640 completed
+iter 223/640 completed
+iter 224/640 completed
+iter 225/640 completed
+iter 226/640 completed
+iter 227/640 completed
+iter 228/640 completed
+iter 229/640 completed
+iter 230/640 completed
+iter 231/640 completed
+iter 232/640 completed
+iter 233/640 completed
+iter 234/640 completed
+iter 235/640 completed
+iter 236/640 completed
+iter 237/640 completed
+iter 238/640 completed
+iter 239/640 completed
+iter 240/640 completed
+iter 241/640 completed
+iter 242/640 completed
+iter 243/640 completed
+iter 244/640 completed
+iter 245/640 completed
+iter 246/640 completed
+iter 247/640 completed
+iter 248/640 completed
+iter 249/640 completed
+iter 250/640 completed
+iter 251/640 completed
+iter 252/640 completed
+iter 253/640 completed
+iter 254/640 completed
+iter 255/640 completed
+iter 256/640 completed
+iter 257/640 completed
+iter 258/640 completed
+iter 259/640 completed
+iter 260/640 completed
+iter 261/640 completed
+iter 262/640 completed
+iter 263/640 completed
+iter 264/640 completed
+iter 265/640 completed
+iter 266/640 completed
+iter 267/640 completed
+iter 268/640 completed
+iter 269/640 completed
+iter 270/640 completed
+iter 271/640 completed
+iter 272/640 completed
+iter 273/640 completed
+iter 274/640 completed
+iter 275/640 completed
+iter 276/640 completed
+iter 277/640 completed
+iter 278/640 completed
+iter 279/640 completed
+iter 280/640 completed
+iter 281/640 completed
+iter 282/640 completed
+iter 283/640 completed
+iter 284/640 completed
+iter 285/640 completed
+iter 286/640 completed
+iter 287/640 completed
+iter 288/640 completed
+iter 289/640 completed
+iter 290/640 completed
+iter 291/640 completed
+iter 292/640 completed
+iter 293/640 completed
+iter 294/640 completed
+iter 295/640 completed
+iter 296/640 completed
+iter 297/640 completed
+iter 298/640 completed
+iter 299/640 completed
+iter 300/640 completed
+iter 301/640 completed
+iter 302/640 completed
+iter 303/640 completed
+iter 304/640 completed
+iter 305/640 completed
+iter 306/640 completed
+iter 307/640 completed
+iter 308/640 completed
+iter 309/640 completed
+iter 310/640 completed
+iter 311/640 completed
+iter 312/640 completed
+iter 313/640 completed
+iter 314/640 completed
+iter 315/640 completed
+iter 316/640 completed
+iter 317/640 completed
+iter 318/640 completed
+iter 319/640 completed
+iter 320/640 completed
+iter 321/640 completed
+iter 322/640 completed
+iter 323/640 completed
+iter 324/640 completed
+iter 325/640 completed
+iter 326/640 completed
+iter 327/640 completed
+iter 328/640 completed
+iter 329/640 completed
+iter 330/640 completed
+iter 331/640 completed
+iter 332/640 completed
+iter 333/640 completed
+iter 334/640 completed
+iter 335/640 completed
+iter 336/640 completed
+iter 337/640 completed
+iter 338/640 completed
+iter 339/640 completed
+iter 340/640 completed
+iter 341/640 completed
+iter 342/640 completed
+iter 343/640 completed
+iter 344/640 completed
+iter 345/640 completed
+iter 346/640 completed
+iter 347/640 completed
+iter 348/640 completed
+iter 349/640 completed
+iter 350/640 completed
+iter 351/640 completed
+iter 352/640 completed
+iter 353/640 completed
+iter 354/640 completed
+iter 355/640 completed
+iter 356/640 completed
+iter 357/640 completed
+iter 358/640 completed
+iter 359/640 completed
+iter 360/640 completed
+iter 361/640 completed
+iter 362/640 completed
+iter 363/640 completed
+iter 364/640 completed
+iter 365/640 completed
+iter 366/640 completed
+iter 367/640 completed
+iter 368/640 completed
+iter 369/640 completed
+iter 370/640 completed
+iter 371/640 completed
+iter 372/640 completed
+iter 373/640 completed
+iter 374/640 completed
+iter 375/640 completed
+iter 376/640 completed
+iter 377/640 completed
+iter 378/640 completed
+iter 379/640 completed
+iter 380/640 completed
+iter 381/640 completed
+iter 382/640 completed
+iter 383/640 completed
+iter 384/640 completed
+iter 385/640 completed
+iter 386/640 completed
+iter 387/640 completed
+iter 388/640 completed
+iter 389/640 completed
+iter 390/640 completed
+iter 391/640 completed
+iter 392/640 completed
+iter 393/640 completed
+iter 394/640 completed
+iter 395/640 completed
+iter 396/640 completed
+iter 397/640 completed
+iter 398/640 completed
+iter 399/640 completed
+iter 400/640 completed
+iter 401/640 completed
+iter 402/640 completed
+iter 403/640 completed
+iter 404/640 completed
+iter 405/640 completed
+iter 406/640 completed
+iter 407/640 completed
+iter 408/640 completed
+iter 409/640 completed
+iter 410/640 completed
+iter 411/640 completed
+iter 412/640 completed
+iter 413/640 completed
+iter 414/640 completed
+iter 415/640 completed
+iter 416/640 completed
+iter 417/640 completed
+iter 418/640 completed
+iter 419/640 completed
+iter 420/640 completed
+iter 421/640 completed
+iter 422/640 completed
+iter 423/640 completed
+iter 424/640 completed
+iter 425/640 completed
+iter 426/640 completed
+iter 427/640 completed
+iter 428/640 completed
+iter 429/640 completed
+iter 430/640 completed
+iter 431/640 completed
+iter 432/640 completed
+iter 433/640 completed
+iter 434/640 completed
+iter 435/640 completed
+iter 436/640 completed
+iter 437/640 completed
+iter 438/640 completed
+iter 439/640 completed
+iter 440/640 completed
+iter 441/640 completed
+iter 442/640 completed
+iter 443/640 completed
+iter 444/640 completed
+iter 445/640 completed
+iter 446/640 completed
+iter 447/640 completed
+iter 448/640 completed
+iter 449/640 completed
+iter 450/640 completed
+iter 451/640 completed
+iter 452/640 completed
+iter 453/640 completed
+iter 454/640 completed
+iter 455/640 completed
+iter 456/640 completed
+iter 457/640 completed
+iter 458/640 completed
+iter 459/640 completed
+iter 460/640 completed
+iter 461/640 completed
+iter 462/640 completed
+iter 463/640 completed
+iter 464/640 completed
+iter 465/640 completed
+iter 466/640 completed
+iter 467/640 completed
+iter 468/640 completed
+iter 469/640 completed
+iter 470/640 completed
+iter 471/640 completed
+iter 472/640 completed
+iter 473/640 completed
+iter 474/640 completed
+iter 475/640 completed
+iter 476/640 completed
+iter 477/640 completed
+iter 478/640 completed
+iter 479/640 completed
+iter 480/640 completed
+iter 481/640 completed
+iter 482/640 completed
+iter 483/640 completed
+iter 484/640 completed
+iter 485/640 completed
+iter 486/640 completed
+iter 487/640 completed
+iter 488/640 completed
+iter 489/640 completed
+iter 490/640 completed
+iter 491/640 completed
+iter 492/640 completed
+iter 493/640 completed
+iter 494/640 completed
+iter 495/640 completed
+iter 496/640 completed
+iter 497/640 completed
+iter 498/640 completed
+iter 499/640 completed
+iter 500/640 completed
+iter 501/640 completed
+iter 502/640 completed
+iter 503/640 completed
+iter 504/640 completed
+iter 505/640 completed
+iter 506/640 completed
+iter 507/640 completed
+iter 508/640 completed
+iter 509/640 completed
+iter 510/640 completed
+iter 511/640 completed
+iter 512/640 completed
+iter 513/640 completed
+iter 514/640 completed
+iter 515/640 completed
+iter 516/640 completed
+iter 517/640 completed
+iter 518/640 completed
+iter 519/640 completed
+iter 520/640 completed
+iter 521/640 completed
+iter 522/640 completed
+iter 523/640 completed
+iter 524/640 completed
+iter 525/640 completed
+iter 526/640 completed
+iter 527/640 completed
+iter 528/640 completed
+iter 529/640 completed
+iter 530/640 completed
+iter 531/640 completed
+iter 532/640 completed
+iter 533/640 completed
+iter 534/640 completed
+iter 535/640 completed
+iter 536/640 completed
+iter 537/640 completed
+iter 538/640 completed
+iter 539/640 completed
+iter 540/640 completed
+iter 541/640 completed
+iter 542/640 completed
+iter 543/640 completed
+iter 544/640 completed
+iter 545/640 completed
+iter 546/640 completed
+iter 547/640 completed
+iter 548/640 completed
+iter 549/640 completed
+iter 550/640 completed
+iter 551/640 completed
+iter 552/640 completed
+iter 553/640 completed
+iter 554/640 completed
+iter 555/640 completed
+iter 556/640 completed
+iter 557/640 completed
+iter 558/640 completed
+iter 559/640 completed
+iter 560/640 completed
+iter 561/640 completed
+iter 562/640 completed
+iter 563/640 completed
+iter 564/640 completed
+iter 565/640 completed
+iter 566/640 completed
+iter 567/640 completed
+iter 568/640 completed
+iter 569/640 completedStarts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[32 20 32 32]
+[32768    20]
+TerDecom starts!
+iter 1/20 completed
+iter 2/20 completed
+iter 3/20 completed
+iter 4/20 completed
+iter 5/20 completed
+iter 6/20 completed
+iter 7/20 completed
+iter 8/20 completed
+iter 9/20 completed
+iter 10/20 completed
+iter 11/20 completed
+iter 12/20 completed
+iter 13/20 completed
+iter 14/20 completed
+iter 15/20 completed
+iter 16/20 completed
+iter 17/20 completed
+iter 18/20 completed
+iter 19/20 completed
+iter 20/20 completed
+error is  4.567772027040912
+[20  1 20]
+[1024  640]
+TerDecom starts!
+iter 1/640 completed
+iter 2/640 completed
+iter 3/640 completed
+iter 4/640 completed
+iter 5/640 completed
+iter 6/640 completed
+iter 7/640 completed
+iter 8/640 completed
+iter 9/640 completed
+iter 10/640 completed
+iter 11/640 completed
+iter 12/640 completed
+iter 13/640 completed
+iter 14/640 completed
+iter 15/640 completed
+iter 16/640 completed
+iter 17/640 completed
+iter 18/640 completed
+iter 19/640 completed
+iter 20/640 completed
+iter 21/640 completed
+iter 22/640 completed
+iter 23/640 completed
+iter 24/640 completed
+iter 25/640 completed
+iter 26/640 completed
+iter 27/640 completed
+iter 28/640 completed
+iter 29/640 completed
+iter 30/640 completed
+iter 31/640 completed
+iter 32/640 completed
+iter 33/640 completed
+iter 34/640 completed
+iter 35/640 completed
+[4;33mReloaded modules[24m: DataLoader, Decomposition, train_and_save_Lenet[0m
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+8.680844
+model substitude
+Now updating the last core
+
+Test set: Average loss: 0.5965, Accuracy: 9728/10000 (97%)
+
+Loss_grad is in grabbing progression
+=========================
+[4;33mReloaded modules[24m: DataLoader, Decomposition, train_and_save_Lenet[0m
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+8.680844
+model substitude
+Now updating the last core
+
+Test set: Average loss: 0.5965, Accuracy: 9728/10000 (97%)
+
+Loss_grad is in grabbing progression
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0061,  0.0014,  0.0032,  ...,  0.0078,  0.0004,  0.0052],
+        [-0.0015, -0.0112,  0.0044,  ..., -0.0111, -0.0111,  0.0060],
+        [-0.0029, -0.0013,  0.0134,  ...,  0.0052,  0.0028,  0.0035],
+        ...,
+        [ 0.0075, -0.0039,  0.0034,  ...,  0.0023, -0.0092, -0.0045],
+        [ 0.0048, -0.0099, -0.0048,  ..., -0.0007,  0.0089,  0.0037],
+        [ 0.0028, -0.0014,  0.0040,  ...,  0.0013,  0.0007, -0.0046]])
+Updating error 5.562348
+Train Epoch: 1 [0/10000 (0%)]	Loss: 0.624518
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0047, -0.0085, -0.0065,  ..., -0.0018,  0.0044, -0.0012],
+        [ 0.0143,  0.0079, -0.0078,  ..., -0.0007,  0.0004, -0.0137],
+        [-0.0041,  0.0159, -0.0036,  ...,  0.0036, -0.0038, -0.0051],
+        ...,
+        [-0.0101,  0.0052, -0.0044,  ..., -0.0055,  0.0008,  0.0034],
+        [ 0.0038,  0.0190, -0.0013,  ...,  0.0064,  0.0016, -0.0052],
+        [-0.0057, -0.0118,  0.0118,  ..., -0.0077,  0.0091,  0.0082]])
+Updating error 8.622571
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0457,  0.0231,  0.0585,  ...,  0.0251, -0.0258, -0.0138],
+        [-0.0951, -0.0438,  0.0338,  ..., -0.0068, -0.0470,  0.0784],
+        [ 0.0223, -0.0533,  0.0330,  ...,  0.0348,  0.0083,  0.0207],
+        ...,
+        [-0.0092, -0.0366,  0.0485,  ...,  0.0326, -0.0155, -0.0448],
+        [-0.0056, -0.0738,  0.0251,  ...,  0.0012, -0.0129, -0.0079],
+        [ 0.0189,  0.0620, -0.0345,  ...,  0.0553, -0.0083, -0.0573]])
+Updating error 34.382507
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0369,  0.0256, -0.0226,  ...,  0.0073,  0.0172, -0.0073],
+        [ 0.1027,  0.0471,  0.0137,  ..., -0.0300,  0.0102, -0.0471],
+        [ 0.0222,  0.0397, -0.0098,  ...,  0.0392,  0.0034,  0.0082],
+        ...,
+        [-0.0100, -0.0107, -0.0042,  ..., -0.0023, -0.0360,  0.0122],
+        [ 0.0714,  0.0553,  0.0508,  ...,  0.0113,  0.0315,  0.0039],
+        [-0.0210, -0.0252,  0.0286,  ..., -0.0253,  0.0753, -0.0017]])
+Updating error 33.334957
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0034, -0.0274,  0.0196,  ..., -0.0021, -0.0096,  0.0099],
+        [ 0.0018,  0.0084, -0.0233,  ..., -0.0208, -0.0092, -0.0125],
+        [-0.0241, -0.0120, -0.0149,  ..., -0.0096,  0.0042, -0.0111],
+        ...,
+        [ 0.0171,  0.0438,  0.0252,  ..., -0.0041,  0.0122,  0.0002],
+        [-0.0322,  0.0167, -0.0066,  ..., -0.0261,  0.0105,  0.0030],
+        [ 0.0145,  0.0110,  0.0216,  ...,  0.0180, -0.0125, -0.0097]])
+Updating error 14.447573
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0116, -0.0118, -0.0144,  ...,  0.0027, -0.0021,  0.0052],
+        [ 0.0025,  0.0054,  0.0028,  ...,  0.0021,  0.0073, -0.0100],
+        [-0.0042, -0.0036, -0.0002,  ..., -0.0029,  0.0012,  0.0060],
+        ...,
+        [ 0.0067,  0.0081,  0.0070,  ..., -0.0027,  0.0034,  0.0016],
+        [-0.0066, -0.0014, -0.0100,  ..., -0.0030,  0.0003,  0.0016],
+        [ 0.0052,  0.0002,  0.0061,  ..., -0.0046, -0.0085,  0.0025]])
+Updating error 5.522258
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0044, -0.0036, -0.0032,  ...,  0.0010, -0.0030,  0.0029],
+        [-0.0037,  0.0018, -0.0013,  ...,  0.0025,  0.0002, -0.0026],
+        [-0.0027,  0.0040,  0.0016,  ..., -0.0028, -0.0005,  0.0009],
+        ...,
+        [-0.0024,  0.0027, -0.0007,  ..., -0.0015,  0.0032,  0.0009],
+        [-0.0053,  0.0009, -0.0047,  ...,  0.0003, -0.0026, -0.0025],
+        [ 0.0016, -0.0046,  0.0044,  ..., -0.0021, -0.0026,  0.0047]])
+Updating error 2.1879675
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-3.4346e-03, -5.7832e-04, -1.3810e-03,  ...,  1.1291e-03,
+         -4.1742e-03,  2.4186e-03],
+        [-4.3145e-03,  1.1234e-03,  8.1833e-05,  ...,  2.3430e-03,
+         -2.5811e-03, -1.4764e-04],
+        [-1.0987e-03,  2.8548e-03,  1.6327e-03,  ..., -2.0266e-03,
+          4.1541e-04,  1.2531e-03],
+        ...,
+        [-8.8400e-04,  2.5980e-04, -2.0750e-03,  ..., -1.0913e-03,
+          3.3635e-03, -3.2296e-04],
+        [-3.7909e-03, -1.2405e-03, -5.1969e-03,  ..., -1.8582e-04,
+         -1.4415e-03, -2.1109e-03],
+        [ 1.6476e-03, -3.4984e-03,  2.4161e-03,  ..., -6.4898e-04,
+         -1.9840e-03,  2.8904e-03]])
+Updating error 1.555159
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-8.5545e-04, -3.2217e-04, -2.5608e-03,  ...,  1.6829e-03,
+         -3.8698e-04,  1.3469e-03],
+        [ 7.1753e-04,  4.4357e-05,  9.8824e-04,  ..., -2.0480e-04,
+          2.1661e-04, -1.1724e-03],
+        [-1.2463e-04, -5.8381e-05,  1.4874e-04,  ..., -9.7457e-04,
+          3.0296e-04,  1.0688e-03],
+        ...,
+        [ 5.8191e-04,  3.5151e-04,  4.2681e-04,  ..., -1.6620e-04,
+         -3.7123e-05,  2.5678e-04],
+        [-6.5207e-04, -6.8064e-04, -2.0029e-03,  ..., -1.2095e-03,
+          3.0599e-04, -6.8333e-05],
+        [ 9.9152e-04, -1.0176e-03,  1.0259e-03,  ...,  1.0352e-04,
+         -2.0907e-03,  4.0929e-04]])
+Updating error 0.8069193
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-4.9537e-04, -1.3241e-03,  5.8621e-04,  ...,  1.2048e-03,
+         -1.5196e-03,  1.4471e-05],
+        [-4.7205e-03, -9.1009e-05,  4.7311e-06,  ...,  1.0768e-03,
+         -1.0485e-03,  1.8645e-03],
+        [-6.5643e-04,  1.0717e-03,  2.1882e-03,  ..., -3.8944e-04,
+         -5.3472e-04,  4.7242e-04],
+        ...,
+        [-2.7331e-03, -7.6093e-04, -8.7989e-04,  ...,  1.0283e-03,
+          1.2228e-03, -7.1480e-04],
+        [-3.8878e-03, -1.2588e-03, -2.2430e-03,  ...,  1.1109e-03,
+         -2.3579e-03, -2.2637e-03],
+        [ 1.2754e-03, -2.6647e-04,  1.2742e-03,  ...,  5.5534e-04,
+         -1.0545e-03,  1.2487e-03]])
+Updating error 1.1585896
+
+Test set: Average loss: 0.1852, Accuracy: 9423/10000 (94%)
+
+0 _finished
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+8.680844
+model substitude
+Now updating the last core
+
+Test set: Average loss: 0.5965, Accuracy: 9728/10000 (97%)
+
+Loss_grad is in grabbing progression
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0061,  0.0014,  0.0032,  ...,  0.0078,  0.0004,  0.0052],
+        [-0.0015, -0.0112,  0.0044,  ..., -0.0111, -0.0111,  0.0060],
+        [-0.0029, -0.0013,  0.0134,  ...,  0.0052,  0.0028,  0.0035],
+        ...,
+        [ 0.0075, -0.0039,  0.0034,  ...,  0.0023, -0.0092, -0.0045],
+        [ 0.0048, -0.0099, -0.0048,  ..., -0.0007,  0.0089,  0.0037],
+        [ 0.0028, -0.0014,  0.0040,  ...,  0.0013,  0.0007, -0.0046]])
+Updating error 5.562348
+Train Epoch: 1 [0/10000 (0%)]	Loss: 0.624518
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0047, -0.0085, -0.0065,  ..., -0.0018,  0.0044, -0.0012],
+        [ 0.0143,  0.0079, -0.0078,  ..., -0.0007,  0.0004, -0.0137],
+        [-0.0041,  0.0159, -0.0036,  ...,  0.0036, -0.0038, -0.0051],
+        ...,
+        [-0.0101,  0.0052, -0.0044,  ..., -0.0055,  0.0008,  0.0034],
+        [ 0.0038,  0.0190, -0.0013,  ...,  0.0064,  0.0016, -0.0052],
+        [-0.0057, -0.0118,  0.0118,  ..., -0.0077,  0.0091,  0.0082]])
+Updating error 8.622571
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0457,  0.0231,  0.0585,  ...,  0.0251, -0.0258, -0.0138],
+        [-0.0951, -0.0438,  0.0338,  ..., -0.0068, -0.0470,  0.0784],
+        [ 0.0223, -0.0533,  0.0330,  ...,  0.0348,  0.0083,  0.0207],
+        ...,
+        [-0.0092, -0.0366,  0.0485,  ...,  0.0326, -0.0155, -0.0448],
+        [-0.0056, -0.0738,  0.0251,  ...,  0.0012, -0.0129, -0.0079],
+        [ 0.0189,  0.0620, -0.0345,  ...,  0.0553, -0.0083, -0.0573]])
+Updating error 34.382507
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0369,  0.0256, -0.0226,  ...,  0.0073,  0.0172, -0.0073],
+        [ 0.1027,  0.0471,  0.0137,  ..., -0.0300,  0.0102, -0.0471],
+        [ 0.0222,  0.0397, -0.0098,  ...,  0.0392,  0.0034,  0.0082],
+        ...,
+        [-0.0100, -0.0107, -0.0042,  ..., -0.0023, -0.0360,  0.0122],
+        [ 0.0714,  0.0553,  0.0508,  ...,  0.0113,  0.0315,  0.0039],
+        [-0.0210, -0.0252,  0.0286,  ..., -0.0253,  0.0753, -0.0017]])
+Updating error 33.334957
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0034, -0.0274,  0.0196,  ..., -0.0021, -0.0096,  0.0099],
+        [ 0.0018,  0.0084, -0.0233,  ..., -0.0208, -0.0092, -0.0125],
+        [-0.0241, -0.0120, -0.0149,  ..., -0.0096,  0.0042, -0.0111],
+        ...,
+        [ 0.0171,  0.0438,  0.0252,  ..., -0.0041,  0.0122,  0.0002],
+        [-0.0322,  0.0167, -0.0066,  ..., -0.0261,  0.0105,  0.0030],
+        [ 0.0145,  0.0110,  0.0216,  ...,  0.0180, -0.0125, -0.0097]])
+Updating error 14.447573
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0116, -0.0118, -0.0144,  ...,  0.0027, -0.0021,  0.0052],
+        [ 0.0025,  0.0054,  0.0028,  ...,  0.0021,  0.0073, -0.0100],
+        [-0.0042, -0.0036, -0.0002,  ..., -0.0029,  0.0012,  0.0060],
+        ...,
+        [ 0.0067,  0.0081,  0.0070,  ..., -0.0027,  0.0034,  0.0016],
+        [-0.0066, -0.0014, -0.0100,  ..., -0.0030,  0.0003,  0.0016],
+        [ 0.0052,  0.0002,  0.0061,  ..., -0.0046, -0.0085,  0.0025]])
+Updating error 5.522258
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0044, -0.0036, -0.0032,  ...,  0.0010, -0.0030,  0.0029],
+        [-0.0037,  0.0018, -0.0013,  ...,  0.0025,  0.0002, -0.0026],
+        [-0.0027,  0.0040,  0.0016,  ..., -0.0028, -0.0005,  0.0009],
+        ...,
+        [-0.0024,  0.0027, -0.0007,  ..., -0.0015,  0.0032,  0.0009],
+        [-0.0053,  0.0009, -0.0047,  ...,  0.0003, -0.0026, -0.0025],
+        [ 0.0016, -0.0046,  0.0044,  ..., -0.0021, -0.0026,  0.0047]])
+Updating error 2.1879675
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-3.4346e-03, -5.7832e-04, -1.3810e-03,  ...,  1.1291e-03,
+         -4.1742e-03,  2.4186e-03],
+        [-4.3145e-03,  1.1234e-03,  8.1833e-05,  ...,  2.3430e-03,
+         -2.5811e-03, -1.4764e-04],
+        [-1.0987e-03,  2.8548e-03,  1.6327e-03,  ..., -2.0266e-03,
+          4.1541e-04,  1.2531e-03],
+        ...,
+        [-8.8400e-04,  2.5980e-04, -2.0750e-03,  ..., -1.0913e-03,
+          3.3635e-03, -3.2296e-04],
+        [-3.7909e-03, -1.2405e-03, -5.1969e-03,  ..., -1.8582e-04,
+         -1.4415e-03, -2.1109e-03],
+        [ 1.6476e-03, -3.4984e-03,  2.4161e-03,  ..., -6.4898e-04,
+         -1.9840e-03,  2.8904e-03]])
+Updating error 1.555159
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-8.5545e-04, -3.2217e-04, -2.5608e-03,  ...,  1.6829e-03,
+         -3.8698e-04,  1.3469e-03],
+        [ 7.1753e-04,  4.4357e-05,  9.8824e-04,  ..., -2.0480e-04,
+          2.1661e-04, -1.1724e-03],
+        [-1.2463e-04, -5.8381e-05,  1.4874e-04,  ..., -9.7457e-04,
+          3.0296e-04,  1.0688e-03],
+        ...,
+        [ 5.8191e-04,  3.5151e-04,  4.2681e-04,  ..., -1.6620e-04,
+         -3.7123e-05,  2.5678e-04],
+        [-6.5207e-04, -6.8064e-04, -2.0029e-03,  ..., -1.2095e-03,
+          3.0599e-04, -6.8333e-05],
+        [ 9.9152e-04, -1.0176e-03,  1.0259e-03,  ...,  1.0352e-04,
+         -2.0907e-03,  4.0929e-04]])
+Updating error 0.8069193
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-4.9537e-04, -1.3241e-03,  5.8621e-04,  ...,  1.2048e-03,
+         -1.5196e-03,  1.4471e-05],
+        [-4.7205e-03, -9.1009e-05,  4.7311e-06,  ...,  1.0768e-03,
+         -1.0485e-03,  1.8645e-03],
+        [-6.5643e-04,  1.0717e-03,  2.1882e-03,  ..., -3.8944e-04,
+         -5.3472e-04,  4.7242e-04],
+        ...,
+        [-2.7331e-03, -7.6093e-04, -8.7989e-04,  ...,  1.0283e-03,
+          1.2228e-03, -7.1480e-04],
+        [-3.8878e-03, -1.2588e-03, -2.2430e-03,  ...,  1.1109e-03,
+         -2.3579e-03, -2.2637e-03],
+        [ 1.2754e-03, -2.6647e-04,  1.2742e-03,  ...,  5.5534e-04,
+         -1.0545e-03,  1.2487e-03]])
+Updating error 1.1585896
+
+Test set: Average loss: 0.1852, Accuracy: 9423/10000 (94%)
+
+0 _finished
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+8.680844
+model substitude
+Now updating the last core
+
+Test set: Average loss: 0.5965, Accuracy: 9728/10000 (97%)
+
+Loss_grad is in grabbing progression
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0061,  0.0014,  0.0032,  ...,  0.0078,  0.0004,  0.0052],
+        [-0.0015, -0.0112,  0.0044,  ..., -0.0111, -0.0111,  0.0060],
+        [-0.0029, -0.0013,  0.0134,  ...,  0.0052,  0.0028,  0.0035],
+        ...,
+        [ 0.0075, -0.0039,  0.0034,  ...,  0.0023, -0.0092, -0.0045],
+        [ 0.0048, -0.0099, -0.0048,  ..., -0.0007,  0.0089,  0.0037],
+        [ 0.0028, -0.0014,  0.0040,  ...,  0.0013,  0.0007, -0.0046]])
+Updating error 5.562348
+Train Epoch: 1 [0/10000 (0%)]	Loss: 0.624518
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0047, -0.0085, -0.0065,  ..., -0.0018,  0.0044, -0.0012],
+        [ 0.0143,  0.0079, -0.0078,  ..., -0.0007,  0.0004, -0.0137],
+        [-0.0041,  0.0159, -0.0036,  ...,  0.0036, -0.0038, -0.0051],
+        ...,
+        [-0.0101,  0.0052, -0.0044,  ..., -0.0055,  0.0008,  0.0034],
+        [ 0.0038,  0.0190, -0.0013,  ...,  0.0064,  0.0016, -0.0052],
+        [-0.0057, -0.0118,  0.0118,  ..., -0.0077,  0.0091,  0.0082]])
+Updating error 8.622571
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0457,  0.0231,  0.0585,  ...,  0.0251, -0.0258, -0.0138],
+        [-0.0951, -0.0438,  0.0338,  ..., -0.0068, -0.0470,  0.0784],
+        [ 0.0223, -0.0533,  0.0330,  ...,  0.0348,  0.0083,  0.0207],
+        ...,
+        [-0.0092, -0.0366,  0.0485,  ...,  0.0326, -0.0155, -0.0448],
+        [-0.0056, -0.0738,  0.0251,  ...,  0.0012, -0.0129, -0.0079],
+        [ 0.0189,  0.0620, -0.0345,  ...,  0.0553, -0.0083, -0.0573]])
+Updating error 34.382507
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0369,  0.0256, -0.0226,  ...,  0.0073,  0.0172, -0.0073],
+        [ 0.1027,  0.0471,  0.0137,  ..., -0.0300,  0.0102, -0.0471],
+        [ 0.0222,  0.0397, -0.0098,  ...,  0.0392,  0.0034,  0.0082],
+        ...,
+        [-0.0100, -0.0107, -0.0042,  ..., -0.0023, -0.0360,  0.0122],
+        [ 0.0714,  0.0553,  0.0508,  ...,  0.0113,  0.0315,  0.0039],
+        [-0.0210, -0.0252,  0.0286,  ..., -0.0253,  0.0753, -0.0017]])
+Updating error 33.334957
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0034, -0.0274,  0.0196,  ..., -0.0021, -0.0096,  0.0099],
+        [ 0.0018,  0.0084, -0.0233,  ..., -0.0208, -0.0092, -0.0125],
+        [-0.0241, -0.0120, -0.0149,  ..., -0.0096,  0.0042, -0.0111],
+        ...,
+        [ 0.0171,  0.0438,  0.0252,  ..., -0.0041,  0.0122,  0.0002],
+        [-0.0322,  0.0167, -0.0066,  ..., -0.0261,  0.0105,  0.0030],
+        [ 0.0145,  0.0110,  0.0216,  ...,  0.0180, -0.0125, -0.0097]])
+Updating error 14.447573
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0116, -0.0118, -0.0144,  ...,  0.0027, -0.0021,  0.0052],
+        [ 0.0025,  0.0054,  0.0028,  ...,  0.0021,  0.0073, -0.0100],
+        [-0.0042, -0.0036, -0.0002,  ..., -0.0029,  0.0012,  0.0060],
+        ...,
+        [ 0.0067,  0.0081,  0.0070,  ..., -0.0027,  0.0034,  0.0016],
+        [-0.0066, -0.0014, -0.0100,  ..., -0.0030,  0.0003,  0.0016],
+        [ 0.0052,  0.0002,  0.0061,  ..., -0.0046, -0.0085,  0.0025]])
+Updating error 5.522258
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0044, -0.0036, -0.0032,  ...,  0.0010, -0.0030,  0.0029],
+        [-0.0037,  0.0018, -0.0013,  ...,  0.0025,  0.0002, -0.0026],
+        [-0.0027,  0.0040,  0.0016,  ..., -0.0028, -0.0005,  0.0009],
+        ...,
+        [-0.0024,  0.0027, -0.0007,  ..., -0.0015,  0.0032,  0.0009],
+        [-0.0053,  0.0009, -0.0047,  ...,  0.0003, -0.0026, -0.0025],
+        [ 0.0016, -0.0046,  0.0044,  ..., -0.0021, -0.0026,  0.0047]])
+Updating error 2.1879675
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-3.4346e-03, -5.7832e-04, -1.3810e-03,  ...,  1.1291e-03,
+         -4.1742e-03,  2.4186e-03],
+        [-4.3145e-03,  1.1234e-03,  8.1833e-05,  ...,  2.3430e-03,
+         -2.5811e-03, -1.4764e-04],
+        [-1.0987e-03,  2.8548e-03,  1.6327e-03,  ..., -2.0266e-03,
+          4.1541e-04,  1.2531e-03],
+        ...,
+        [-8.8400e-04,  2.5980e-04, -2.0750e-03,  ..., -1.0913e-03,
+          3.3635e-03, -3.2296e-04],
+        [-3.7909e-03, -1.2405e-03, -5.1969e-03,  ..., -1.8582e-04,
+         -1.4415e-03, -2.1109e-03],
+        [ 1.6476e-03, -3.4984e-03,  2.4161e-03,  ..., -6.4898e-04,
+         -1.9840e-03,  2.8904e-03]])
+Updating error 1.555159
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-8.5545e-04, -3.2217e-04, -2.5608e-03,  ...,  1.6829e-03,
+         -3.8698e-04,  1.3469e-03],
+        [ 7.1753e-04,  4.4357e-05,  9.8824e-04,  ..., -2.0480e-04,
+          2.1661e-04, -1.1724e-03],
+        [-1.2463e-04, -5.8381e-05,  1.4874e-04,  ..., -9.7457e-04,
+          3.0296e-04,  1.0688e-03],
+        ...,
+        [ 5.8191e-04,  3.5151e-04,  4.2681e-04,  ..., -1.6620e-04,
+         -3.7123e-05,  2.5678e-04],
+        [-6.5207e-04, -6.8064e-04, -2.0029e-03,  ..., -1.2095e-03,
+          3.0599e-04, -6.8333e-05],
+        [ 9.9152e-04, -1.0176e-03,  1.0259e-03,  ...,  1.0352e-04,
+         -2.0907e-03,  4.0929e-04]])
+Updating error 0.8069193
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-4.9537e-04, -1.3241e-03,  5.8621e-04,  ...,  1.2048e-03,
+         -1.5196e-03,  1.4471e-05],
+        [-4.7205e-03, -9.1009e-05,  4.7311e-06,  ...,  1.0768e-03,
+         -1.0485e-03,  1.8645e-03],
+        [-6.5643e-04,  1.0717e-03,  2.1882e-03,  ..., -3.8944e-04,
+         -5.3472e-04,  4.7242e-04],
+        ...,
+        [-2.7331e-03, -7.6093e-04, -8.7989e-04,  ...,  1.0283e-03,
+          1.2228e-03, -7.1480e-04],
+        [-3.8878e-03, -1.2588e-03, -2.2430e-03,  ...,  1.1109e-03,
+         -2.3579e-03, -2.2637e-03],
+        [ 1.2754e-03, -2.6647e-04,  1.2742e-03,  ...,  5.5534e-04,
+         -1.0545e-03,  1.2487e-03]])
+Updating error 1.1585896
+
+Test set: Average loss: 0.1852, Accuracy: 9423/10000 (94%)
+
+0 _finished
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+8.680844
+model substitude
+Now updating the last core
+
+Test set: Average loss: 0.5965, Accuracy: 9728/10000 (97%)
+
+Loss_grad is in grabbing progression
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0061,  0.0014,  0.0032,  ...,  0.0078,  0.0004,  0.0052],
+        [-0.0015, -0.0112,  0.0044,  ..., -0.0111, -0.0111,  0.0060],
+        [-0.0029, -0.0013,  0.0134,  ...,  0.0052,  0.0028,  0.0035],
+        ...,
+        [ 0.0075, -0.0039,  0.0034,  ...,  0.0023, -0.0092, -0.0045],
+        [ 0.0048, -0.0099, -0.0048,  ..., -0.0007,  0.0089,  0.0037],
+        [ 0.0028, -0.0014,  0.0040,  ...,  0.0013,  0.0007, -0.0046]])
+Updating error 5.562348
+Train Epoch: 1 [0/10000 (0%)]	Loss: 0.624518
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0047, -0.0085, -0.0065,  ..., -0.0018,  0.0044, -0.0012],
+        [ 0.0143,  0.0079, -0.0078,  ..., -0.0007,  0.0004, -0.0137],
+        [-0.0041,  0.0159, -0.0036,  ...,  0.0036, -0.0038, -0.0051],
+        ...,
+        [-0.0101,  0.0052, -0.0044,  ..., -0.0055,  0.0008,  0.0034],
+        [ 0.0038,  0.0190, -0.0013,  ...,  0.0064,  0.0016, -0.0052],
+        [-0.0057, -0.0118,  0.0118,  ..., -0.0077,  0.0091,  0.0082]])
+Updating error 8.622571
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0457,  0.0231,  0.0585,  ...,  0.0251, -0.0258, -0.0138],
+        [-0.0951, -0.0438,  0.0338,  ..., -0.0068, -0.0470,  0.0784],
+        [ 0.0223, -0.0533,  0.0330,  ...,  0.0348,  0.0083,  0.0207],
+        ...,
+        [-0.0092, -0.0366,  0.0485,  ...,  0.0326, -0.0155, -0.0448],
+        [-0.0056, -0.0738,  0.0251,  ...,  0.0012, -0.0129, -0.0079],
+        [ 0.0189,  0.0620, -0.0345,  ...,  0.0553, -0.0083, -0.0573]])
+Updating error 34.382507
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0369,  0.0256, -0.0226,  ...,  0.0073,  0.0172, -0.0073],
+        [ 0.1027,  0.0471,  0.0137,  ..., -0.0300,  0.0102, -0.0471],
+        [ 0.0222,  0.0397, -0.0098,  ...,  0.0392,  0.0034,  0.0082],
+        ...,
+        [-0.0100, -0.0107, -0.0042,  ..., -0.0023, -0.0360,  0.0122],
+        [ 0.0714,  0.0553,  0.0508,  ...,  0.0113,  0.0315,  0.0039],
+        [-0.0210, -0.0252,  0.0286,  ..., -0.0253,  0.0753, -0.0017]])
+Updating error 33.334957
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0034, -0.0274,  0.0196,  ..., -0.0021, -0.0096,  0.0099],
+        [ 0.0018,  0.0084, -0.0233,  ..., -0.0208, -0.0092, -0.0125],
+        [-0.0241, -0.0120, -0.0149,  ..., -0.0096,  0.0042, -0.0111],
+        ...,
+        [ 0.0171,  0.0438,  0.0252,  ..., -0.0041,  0.0122,  0.0002],
+        [-0.0322,  0.0167, -0.0066,  ..., -0.0261,  0.0105,  0.0030],
+        [ 0.0145,  0.0110,  0.0216,  ...,  0.0180, -0.0125, -0.0097]])
+Updating error 14.447573
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0116, -0.0118, -0.0144,  ...,  0.0027, -0.0021,  0.0052],
+        [ 0.0025,  0.0054,  0.0028,  ...,  0.0021,  0.0073, -0.0100],
+        [-0.0042, -0.0036, -0.0002,  ..., -0.0029,  0.0012,  0.0060],
+        ...,
+        [ 0.0067,  0.0081,  0.0070,  ..., -0.0027,  0.0034,  0.0016],
+        [-0.0066, -0.0014, -0.0100,  ..., -0.0030,  0.0003,  0.0016],
+        [ 0.0052,  0.0002,  0.0061,  ..., -0.0046, -0.0085,  0.0025]])
+Updating error 5.522258
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0044, -0.0036, -0.0032,  ...,  0.0010, -0.0030,  0.0029],
+        [-0.0037,  0.0018, -0.0013,  ...,  0.0025,  0.0002, -0.0026],
+        [-0.0027,  0.0040,  0.0016,  ..., -0.0028, -0.0005,  0.0009],
+        ...,
+        [-0.0024,  0.0027, -0.0007,  ..., -0.0015,  0.0032,  0.0009],
+        [-0.0053,  0.0009, -0.0047,  ...,  0.0003, -0.0026, -0.0025],
+        [ 0.0016, -0.0046,  0.0044,  ..., -0.0021, -0.0026,  0.0047]])
+Updating error 2.1879675
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-3.4346e-03, -5.7832e-04, -1.3810e-03,  ...,  1.1291e-03,
+         -4.1742e-03,  2.4186e-03],
+        [-4.3145e-03,  1.1234e-03,  8.1833e-05,  ...,  2.3430e-03,
+         -2.5811e-03, -1.4764e-04],
+        [-1.0987e-03,  2.8548e-03,  1.6327e-03,  ..., -2.0266e-03,
+          4.1541e-04,  1.2531e-03],
+        ...,
+        [-8.8400e-04,  2.5980e-04, -2.0750e-03,  ..., -1.0913e-03,
+          3.3635e-03, -3.2296e-04],
+        [-3.7909e-03, -1.2405e-03, -5.1969e-03,  ..., -1.8582e-04,
+         -1.4415e-03, -2.1109e-03],
+        [ 1.6476e-03, -3.4984e-03,  2.4161e-03,  ..., -6.4898e-04,
+         -1.9840e-03,  2.8904e-03]])
+Updating error 1.555159
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-8.5545e-04, -3.2217e-04, -2.5608e-03,  ...,  1.6829e-03,
+         -3.8698e-04,  1.3469e-03],
+        [ 7.1753e-04,  4.4357e-05,  9.8824e-04,  ..., -2.0480e-04,
+          2.1661e-04, -1.1724e-03],
+        [-1.2463e-04, -5.8381e-05,  1.4874e-04,  ..., -9.7457e-04,
+          3.0296e-04,  1.0688e-03],
+        ...,
+        [ 5.8191e-04,  3.5151e-04,  4.2681e-04,  ..., -1.6620e-04,
+         -3.7123e-05,  2.5678e-04],
+        [-6.5207e-04, -6.8064e-04, -2.0029e-03,  ..., -1.2095e-03,
+          3.0599e-04, -6.8333e-05],
+        [ 9.9152e-04, -1.0176e-03,  1.0259e-03,  ...,  1.0352e-04,
+         -2.0907e-03,  4.0929e-04]])
+Updating error 0.8069193
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-4.9537e-04, -1.3241e-03,  5.8621e-04,  ...,  1.2048e-03,
+         -1.5196e-03,  1.4471e-05],
+        [-4.7205e-03, -9.1009e-05,  4.7311e-06,  ...,  1.0768e-03,
+         -1.0485e-03,  1.8645e-03],
+        [-6.5643e-04,  1.0717e-03,  2.1882e-03,  ..., -3.8944e-04,
+         -5.3472e-04,  4.7242e-04],
+        ...,
+        [-2.7331e-03, -7.6093e-04, -8.7989e-04,  ...,  1.0283e-03,
+          1.2228e-03, -7.1480e-04],
+        [-3.8878e-03, -1.2588e-03, -2.2430e-03,  ...,  1.1109e-03,
+         -2.3579e-03, -2.2637e-03],
+        [ 1.2754e-03, -2.6647e-04,  1.2742e-03,  ...,  5.5534e-04,
+         -1.0545e-03,  1.2487e-03]])
+Updating error 1.1585896
+
+Test set: Average loss: 0.1852, Accuracy: 9423/10000 (94%)
+
+0 _finished
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+8.680844
+model substitude
+Now updating the last core
+
+Test set: Average loss: 0.5965, Accuracy: 9728/10000 (97%)
+
+Loss_grad is in grabbing progression
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0061,  0.0014,  0.0032,  ...,  0.0078,  0.0004,  0.0052],
+        [-0.0015, -0.0112,  0.0044,  ..., -0.0111, -0.0111,  0.0060],
+        [-0.0029, -0.0013,  0.0134,  ...,  0.0052,  0.0028,  0.0035],
+        ...,
+        [ 0.0075, -0.0039,  0.0034,  ...,  0.0023, -0.0092, -0.0045],
+        [ 0.0048, -0.0099, -0.0048,  ..., -0.0007,  0.0089,  0.0037],
+        [ 0.0028, -0.0014,  0.0040,  ...,  0.0013,  0.0007, -0.0046]])
+Updating error 5.562348
+Train Epoch: 1 [0/10000 (0%)]	Loss: 0.624518
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0047, -0.0085, -0.0065,  ..., -0.0018,  0.0044, -0.0012],
+        [ 0.0143,  0.0079, -0.0078,  ..., -0.0007,  0.0004, -0.0137],
+        [-0.0041,  0.0159, -0.0036,  ...,  0.0036, -0.0038, -0.0051],
+        ...,
+        [-0.0101,  0.0052, -0.0044,  ..., -0.0055,  0.0008,  0.0034],
+        [ 0.0038,  0.0190, -0.0013,  ...,  0.0064,  0.0016, -0.0052],
+        [-0.0057, -0.0118,  0.0118,  ..., -0.0077,  0.0091,  0.0082]])
+Updating error 8.622571
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0457,  0.0231,  0.0585,  ...,  0.0251, -0.0258, -0.0138],
+        [-0.0951, -0.0438,  0.0338,  ..., -0.0068, -0.0470,  0.0784],
+        [ 0.0223, -0.0533,  0.0330,  ...,  0.0348,  0.0083,  0.0207],
+        ...,
+        [-0.0092, -0.0366,  0.0485,  ...,  0.0326, -0.0155, -0.0448],
+        [-0.0056, -0.0738,  0.0251,  ...,  0.0012, -0.0129, -0.0079],
+        [ 0.0189,  0.0620, -0.0345,  ...,  0.0553, -0.0083, -0.0573]])
+Updating error 34.382507
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0369,  0.0256, -0.0226,  ...,  0.0073,  0.0172, -0.0073],
+        [ 0.1027,  0.0471,  0.0137,  ..., -0.0300,  0.0102, -0.0471],
+        [ 0.0222,  0.0397, -0.0098,  ...,  0.0392,  0.0034,  0.0082],
+        ...,
+        [-0.0100, -0.0107, -0.0042,  ..., -0.0023, -0.0360,  0.0122],
+        [ 0.0714,  0.0553,  0.0508,  ...,  0.0113,  0.0315,  0.0039],
+        [-0.0210, -0.0252,  0.0286,  ..., -0.0253,  0.0753, -0.0017]])
+Updating error 33.334957
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[ 0.0034, -0.0274,  0.0196,  ..., -0.0021, -0.0096,  0.0099],
+        [ 0.0018,  0.0084, -0.0233,  ..., -0.0208, -0.0092, -0.0125],
+        [-0.0241, -0.0120, -0.0149,  ..., -0.0096,  0.0042, -0.0111],
+        ...,
+        [ 0.0171,  0.0438,  0.0252,  ..., -0.0041,  0.0122,  0.0002],
+        [-0.0322,  0.0167, -0.0066,  ..., -0.0261,  0.0105,  0.0030],
+        [ 0.0145,  0.0110,  0.0216,  ...,  0.0180, -0.0125, -0.0097]])
+Updating error 14.447573
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0116, -0.0118, -0.0144,  ...,  0.0027, -0.0021,  0.0052],
+        [ 0.0025,  0.0054,  0.0028,  ...,  0.0021,  0.0073, -0.0100],
+        [-0.0042, -0.0036, -0.0002,  ..., -0.0029,  0.0012,  0.0060],
+        ...,
+        [ 0.0067,  0.0081,  0.0070,  ..., -0.0027,  0.0034,  0.0016],
+        [-0.0066, -0.0014, -0.0100,  ..., -0.0030,  0.0003,  0.0016],
+        [ 0.0052,  0.0002,  0.0061,  ..., -0.0046, -0.0085,  0.0025]])
+Updating error 5.522258
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-0.0044, -0.0036, -0.0032,  ...,  0.0010, -0.0030,  0.0029],
+        [-0.0037,  0.0018, -0.0013,  ...,  0.0025,  0.0002, -0.0026],
+        [-0.0027,  0.0040,  0.0016,  ..., -0.0028, -0.0005,  0.0009],
+        ...,
+        [-0.0024,  0.0027, -0.0007,  ..., -0.0015,  0.0032,  0.0009],
+        [-0.0053,  0.0009, -0.0047,  ...,  0.0003, -0.0026, -0.0025],
+        [ 0.0016, -0.0046,  0.0044,  ..., -0.0021, -0.0026,  0.0047]])
+Updating error 2.1879675
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-3.4346e-03, -5.7832e-04, -1.3810e-03,  ...,  1.1291e-03,
+         -4.1742e-03,  2.4186e-03],
+        [-4.3145e-03,  1.1234e-03,  8.1833e-05,  ...,  2.3430e-03,
+         -2.5811e-03, -1.4764e-04],
+        [-1.0987e-03,  2.8548e-03,  1.6327e-03,  ..., -2.0266e-03,
+          4.1541e-04,  1.2531e-03],
+        ...,
+        [-8.8400e-04,  2.5980e-04, -2.0750e-03,  ..., -1.0913e-03,
+          3.3635e-03, -3.2296e-04],
+        [-3.7909e-03, -1.2405e-03, -5.1969e-03,  ..., -1.8582e-04,
+         -1.4415e-03, -2.1109e-03],
+        [ 1.6476e-03, -3.4984e-03,  2.4161e-03,  ..., -6.4898e-04,
+         -1.9840e-03,  2.8904e-03]])
+Updating error 1.555159
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-8.5545e-04, -3.2217e-04, -2.5608e-03,  ...,  1.6829e-03,
+         -3.8698e-04,  1.3469e-03],
+        [ 7.1753e-04,  4.4357e-05,  9.8824e-04,  ..., -2.0480e-04,
+          2.1661e-04, -1.1724e-03],
+        [-1.2463e-04, -5.8381e-05,  1.4874e-04,  ..., -9.7457e-04,
+          3.0296e-04,  1.0688e-03],
+        ...,
+        [ 5.8191e-04,  3.5151e-04,  4.2681e-04,  ..., -1.6620e-04,
+         -3.7123e-05,  2.5678e-04],
+        [-6.5207e-04, -6.8064e-04, -2.0029e-03,  ..., -1.2095e-03,
+          3.0599e-04, -6.8333e-05],
+        [ 9.9152e-04, -1.0176e-03,  1.0259e-03,  ...,  1.0352e-04,
+         -2.0907e-03,  4.0929e-04]])
+Updating error 0.8069193
+=========================
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[   32 20480]
+[32 32]
+[20  1 32 32 32  1]
+[32 20 32 32]
+PROTTSVD accomplished!
+tensor([[-4.9537e-04, -1.3241e-03,  5.8621e-04,  ...,  1.2048e-03,
+         -1.5196e-03,  1.4471e-05],
+        [-4.7205e-03, -9.1009e-05,  4.7311e-06,  ...,  1.0768e-03,
+         -1.0485e-03,  1.8645e-03],
+        [-6.5643e-04,  1.0717e-03,  2.1882e-03,  ..., -3.8944e-04,
+         -5.3472e-04,  4.7242e-04],
+        ...,
+        [-2.7331e-03, -7.6093e-04, -8.7989e-04,  ...,  1.0283e-03,
+          1.2228e-03, -7.1480e-04],
+        [-3.8878e-03, -1.2588e-03, -2.2430e-03,  ...,  1.1109e-03,
+         -2.3579e-03, -2.2637e-03],
+        [ 1.2754e-03, -2.6647e-04,  1.2742e-03,  ...,  5.5534e-04,
+         -1.0545e-03,  1.2487e-03]])
+Updating error 1.1585896
+
+Test set: Average loss: 0.1852, Accuracy: 9423/10000 (94%)
+
+0 _finished
+Starts!
+---------------------bits 1 --------------------
+---------------------itera 60 --------------------
+[20 20]
+[20480    20]
+[ 20   1  32 640]
+[640 640]
+[1024  640]
+[20  1 32 32 32]
+[32 20 32 32]
+PROTTSVD accomplished!
+[20 20]
+[20480    20]
+[ 20   1  32 640]
