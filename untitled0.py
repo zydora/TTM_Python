@@ -15,7 +15,7 @@ def main():
     sys.stdout = f
     sys.stderr = f
     for b in range(4,6):
-        L.update(b = b, i = 1)
+        L.update(b = b)
         print(b,'_finished')
 
 if __name__ == '__main__':

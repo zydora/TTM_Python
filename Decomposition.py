@@ -36,8 +36,8 @@ def TerTTSVD(A,eplison,r,bt,bits,itera,Case=True):
     n = dim
     e = 0
     #delta = eplison*LA.norm(rreshape(A,[dim[0],np.prod(dim)/dim[0]]),'fro')/np.sqrt(dim(n)[0]-1)
-    C = A
-    tC = C
+    tC = A
+    C = tC
     tr = np.zeros([len(n)+1])
     if (r[0] != 1 and r[-1]!=1):
         print('r(1)and r(end) should be 1')
@@ -155,6 +155,7 @@ def rreshape(W,sh):
     print(np.shape(W))
     '''
     # 1
+    W = np.array(W)
     W = trans01(W)
     # 2
     ssh = np.array(sh)
@@ -162,6 +163,8 @@ def rreshape(W,sh):
     b = sh[1]
     ssh[1] = a
     ssh[0] = b
+    ssh = np.array(ssh)
+    print(ssh)
     W = np.reshape(W,ssh)
     # 3
     W = trans01(W)
@@ -196,5 +199,6 @@ def main():
     W = torch.Tensor(W)
     [W,error,G] = reconstruct(W,[5,5,12,20],[1,5,25,20,1],bits=1,itera=20)
     '''
+    
 if __name__ == '__main__':
     main()
